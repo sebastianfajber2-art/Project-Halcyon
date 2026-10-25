@@ -35,7 +35,15 @@ It tells you when a cut is only estimated because no clear pause was found; chec
 - The music and sound effects are synthesised placeholders (nothing to license). If you prefer a platform-library track, render with `--no-music` and add it in the app.
 - Post to TikTok, YouTube Shorts and Instagram Reels from the phone app for the best reach.
 
-## Videos with your own clips and photos
+## Talking to camera, with film cutaways
+
+For videos where you talk to the camera and short film clips cut in, use `edit_video.py` (not `render_short.py`). Your camera video is the base; it adds the cutaways, captions, text overlays and loudness, all timed to what you actually say. The worked example is `talk-01-one-problem/`: read its README, then run
+
+```bash
+python docs/content/edit_video.py talk-01-one-problem path/to/camera-video.mp4 --tighten
+```
+
+## Videos with your own clips and photos (voiceover over pictures)
 
 `clip-template/` shows how to mix your own video clips, photos and sound files with the project graphics, still with one command to render. Read its README first, especially the rules on using other people's footage.
 

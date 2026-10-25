@@ -1,0 +1,36 @@
+{
+  "title": "Talking Short 1: the one problem isn't the reactor (Script C)",
+  "lines": [
+    {"id": "l1", "text": "Everyone says the one problem | stopping a real Iron Man suit | is the arc reactor."},
+    {"id": "l2", "text": "I ran the numbers. | It's not."},
+    {"id": "l3", "text": "The real problem is hovering. | Hovering means pushing your whole weight | down through the air, every second."},
+    {"id": "l4", "text": "My suit burns about five kilograms | of fuel a minute doing that. | Flying forward on a wing | burns less than one. | That's five times less."},
+    {"id": "l5", "text": "So the fix isn't | a better power source. It's wings. | They swing back for speed, | open wide to turn, | and tilt up to brake."},
+    {"id": "l6", "text": "With wings, the same suit flies | for about an hour | when launched like a glider. | The reactor can wait."},
+    {"id": "l7", "text": "Follow, and I'll show | you the test."}
+  ],
+  "cutaways": [
+    {"line": "l1", "word": 10, "lead": 0.25, "duration": 2.5, "file": "media/film1_reactor.mp4", "in": 0.0,
+     "credit": "Iron Man (2008), Marvel Studios"},
+    {"line": "l3", "word": 8, "lead": 0.1, "duration": 2.5, "file": "media/film2_hover.mp4", "in": 0.0,
+     "credit": "Iron Man (2008), Marvel Studios"},
+    {"line": "l4", "word": 13, "lead": 0.2, "duration": 2.5, "file": "media/film3_flight.mp4", "in": 0.0,
+     "credit": "Iron Man (2008), Marvel Studios"}
+  ],
+  "overlays": [
+    {"line": "l2", "word": 4, "duration": 2.0, "text": "NOT THE REACTOR", "style": "accent"},
+    {"line": "l3", "word": 4, "duration": 2.2, "text": "HOVERING", "style": "accent"},
+    {"line": "l4", "word": 4, "duration": 2.5, "text": "~5 KG A MINUTE"},
+    {"line": "l4", "word": 17, "duration": 2.3, "text": "UNDER 1 KG A MINUTE"},
+    {"line": "l4", "word": 21, "duration": 1.8, "text": "5× LESS", "style": "accent"},
+    {"line": "l5", "word": 8, "duration": 1.4, "text": "WINGS", "style": "accent"},
+    {"line": "l5", "word": 12, "duration": 4.0, "text": "SPEED · TURN · STOP"},
+    {"line": "l6", "word": 7, "duration": 3.2, "text": "~1 HOUR (SIMULATION)"},
+    {"line": "l7", "word": 0, "duration": 2.8, "text": "@projectha1cyon", "style": "accent"}
+  ],
+  "sfx": [
+    {"line": "l2", "word": 4, "file": "impact_low", "gain_db": -6},
+    {"line": "l4", "word": 21, "file": "impact_low", "gain_db": -8},
+    {"line": "l6", "word": 5, "file": "riser_end", "gain_db": -12}
+  ]
+}

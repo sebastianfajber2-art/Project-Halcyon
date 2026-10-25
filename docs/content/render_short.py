@@ -163,14 +163,14 @@ def ass_time(t):
 def build_audio(out_dir, short_dir, voice_wav, total, music, sfx, no_music):
     inputs = ["-i", str(voice_wav)]
     chains, mix = [], []
-    if no_music:
-        chains.append("[0:a]anull[vo]")
-        mix.append("[vo]")
-    else:
+    use_music = bool(music) and not no_music
+    if use_music:
         chains.append("[0:a]asplit=2[vo][vsc]")
-        mix.append("[vo]")
+    else:
+        chains.append("[0:a]anull[vo]")
+    mix.append("[vo]")
     idx = 1
-    if not no_music:
+    if use_music:
         mlabels = []
         for seg in music:
             if seg["file"] not in MUSIC_EXPR:
@@ -190,22 +190,22 @@ def build_audio(out_dir, short_dir, voice_wav, total, music, sfx, no_music):
             chains.append(f"{mlabels[0]}anull[music]")
         chains.append("[music][vsc]sidechaincompress=threshold=0.02:ratio=8:attack=20:release=400[duck]")
         mix.append("[duck]")
-        for cue in sfx:
-            if cue["file"] in SFX_SRC:                       # a built-in synthesised effect
-                src, post, lead = SFX_SRC[cue["file"]]
-                ms = int(max(0.0, cue["at"] - lead) * 1000)
-                inputs += ["-f", "lavfi", "-i", src]
-                chains.append(f"[{idx}:a]{post}volume={cue['gain_db']}dB,adelay={ms}|{ms}[s{idx}]")
-            elif (short_dir / cue["file"]).exists():         # your own sound file (wav, mp3, ...)
-                ms = int(max(0.0, cue["at"]) * 1000)
-                inputs += ["-i", str(short_dir / cue["file"])]
-                chains.append(f"[{idx}:a]aformat=channel_layouts=mono,volume={cue['gain_db']}dB,"
-                              f"adelay={ms}|{ms}[s{idx}]")
-            else:
-                print("  warning: sound effect not found:", cue["file"], "- skipped")
-                continue
-            mix.append(f"[s{idx}]")
-            idx += 1
+    for cue in ([] if no_music else sfx):
+        if cue["file"] in SFX_SRC:                       # a built-in synthesised effect
+            src, post, lead = SFX_SRC[cue["file"]]
+            ms = int(max(0.0, cue["at"] - lead) * 1000)
+            inputs += ["-f", "lavfi", "-i", src]
+            chains.append(f"[{idx}:a]{post}volume={cue['gain_db']}dB,adelay={ms}|{ms}[s{idx}]")
+        elif (short_dir / cue["file"]).exists():         # your own sound file (wav, mp3, ...)
+            ms = int(max(0.0, cue["at"]) * 1000)
+            inputs += ["-i", str(short_dir / cue["file"])]
+            chains.append(f"[{idx}:a]aformat=channel_layouts=mono,volume={cue['gain_db']}dB,"
+                          f"adelay={ms}|{ms}[s{idx}]")
+        else:
+            print("  warning: sound effect not found:", cue["file"], "- skipped")
+            continue
+        mix.append(f"[s{idx}]")
+        idx += 1
     chains.append("".join(mix) + f"amix=inputs={len(mix)}:normalize=0:duration=longest,"
                   f"loudnorm=I=-14:TP=-1.5:LRA=11,alimiter=limit=0.9,atrim=end={total:.3f},asetpts=N/SR/TB[a]")
     out = out_dir / "audio.wav"
