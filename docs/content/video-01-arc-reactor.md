@@ -31,7 +31,7 @@ Thumbnail: you holding a glowing ring (cardboard + phone torch is fine), big tex
 
 ## 2:45 What about a tiny nuclear battery? (90 s)
 
-**Say:** NASA powers Mars rovers with plutonium-238. It gives 0.57 watts of heat per gram. A chest-sized one makes about 70 watts of electricity. Enough for electronics; flying needs around 500,000 watts. And a real reactor big enough to fly needs shielding: in the 1950s a nuclear test bomber carried an 11-tonne shield just for the crew.
+**Say:** NASA powers Mars rovers with plutonium-238. It gives 0.57 watts of heat per gram. A chest-sized one makes about 70 watts of electricity. Enough for electronics; flying needs around 500,000 watts. And a real reactor big enough to fly needs shielding: in the 1950s a nuclear test bomber carried roughly 11 to 12 tonnes of lead and rubber just to protect its crew.
 
 **On screen:** "Pu-238 battery: ~70 W. Flight: ~500,000 W."
 

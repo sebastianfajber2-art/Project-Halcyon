@@ -1,0 +1,76 @@
+{
+  "pulled": "2026-10-25",
+  "method": "outlier score = video views / median views of the channel's 50 most recent uploads (video excluded); 397 candidates from 15 niche searches since 2022-01",
+  "entries": [
+    {
+      "id": "H1",
+      "url": "https://www.youtube.com/watch?v=zXr--BjUqUA",
+      "title": "Why we can't build an iron man suit in real life",
+      "channel": "Get Around How",
+      "subscribers": 6540,
+      "published": "2023-03-26",
+      "duration_seconds": 569,
+      "views": 648141,
+      "channel_median_views": 366,
+      "outlier_score": 1768,
+      "format": "reality check, one feature at a time, each ending in a verdict",
+      "chapters": ["Intro 0:00", "AI 0:45", "Flight 2:02", "Repulsor 3:29", "Durability 4:40", "Strength 5:48", "Arc Reactor 6:53", "Verdict 8:37"],
+      "opening_beats": [
+        "0:00 a wish everyone shares",
+        "0:08 reframe: Tony's power is engineering",
+        "0:17 the question: how likely is a real suit",
+        "0:24 underdog logic: one man in a cave, so surely a lab",
+        "0:33 channel plug and roadmap"
+      ],
+      "source_read": "transcript (first three minutes) and chapters",
+      "template": "contrarian impossibility; grade each system; final scoreboard"
+    },
+    {
+      "id": "H2",
+      "url": "https://www.youtube.com/watch?v=DZxsau1mAYc",
+      "title": "How the Arc Reactor Works",
+      "channel": "Dianax",
+      "subscribers": 92800,
+      "published": "2026-10-09",
+      "duration_seconds": 196,
+      "views": 883759,
+      "channel_median_views": 7250,
+      "outlier_score": 122,
+      "format": "short explainer leading with a size-versus-power contradiction",
+      "chapters": ["The Arc Reactor in action 0:00", "What's inside the Arc Reactor 0:24", "Why we can't build one (yet) 2:06", "Behind the scenes 2:51"],
+      "opening_beats": [
+        "a question setting a palm-sized device against suit-level power",
+        "a promise of real physics",
+        "a startling comparison with nuclear reactors"
+      ],
+      "source_read": "title, description and chapters (transcript did not load)",
+      "template": "size versus power; honest 'can't, yet' chapter; behind the scenes finish"
+    },
+    {
+      "id": "H3",
+      "url": "https://www.youtube.com/watch?v=m0OK7eU8DiU",
+      "also": "https://www.youtube.com/watch?v=6d4n-89evvU",
+      "title": "Russian engineer just solved the one problem stopping anyone from building a real Iron Man suit",
+      "channel": "Nic Conley",
+      "subscribers": 40000,
+      "published": ["2025-10-16", "2026-01-11"],
+      "duration_seconds": 60,
+      "views": [15896834, 8500540],
+      "channel_median_views": 2973,
+      "outlier_score": [5346, 2859],
+      "format": "open-loop Short: one named person, one problem, a claim that it is solved",
+      "corroboration": "Cinenion (12.9M, 12.3M views), Bhanu Rai (14.9M) and the ALEX LAB 17-minute documentary (7.1M) cover the same engineer's suit",
+      "source_read": "titles, descriptions and numbers (Shorts transcripts unavailable)",
+      "template": "[person] just solved the one problem stopping anyone from [outcome]",
+      "warning": "the Shorts re-use another creator's footage; take the pattern, not the content"
+    }
+  ],
+  "templates": [
+    {"name": "contrarian impossibility", "pattern": "Why we can't X in real life", "halcyon": "Why a real Iron Man suit can't hover for more than 20 minutes"},
+    {"name": "size versus power", "pattern": "What would it take to power X from something the size of Y?", "halcyon": "What would it take to fly a person on a device the size of a fuel can?"},
+    {"name": "one problem, one answer", "pattern": "[Person] just solved the one problem stopping anyone from X", "halcyon": "The one problem stopping a real Iron Man suit isn't the reactor"},
+    {"name": "grade it system by system", "pattern": "I graded X with real numbers: N of M are possible", "halcyon": "I graded Iron Man's suit with real numbers: 5 of 6 are possible"},
+    {"name": "proof first", "pattern": "result in the first second, then how", "halcyon": "How I'm making a knee motor that can't bend my leg the wrong way (after a test: This motor just failed safely. Watch.)"},
+    {"name": "stat-led real demo", "pattern": "one striking measured fact, then the footage", "halcyon": "After the first foam-wing test: My wing glides [X] metres for every metre it drops (only with a real measurement)"}
+  ]
+}
