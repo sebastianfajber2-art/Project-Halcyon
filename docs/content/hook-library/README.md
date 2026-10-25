@@ -8,7 +8,7 @@ What works in the "real Iron Man suit" niche, measured from YouTube data, and sc
 | [hooks.json](hooks.json) | The same entries in machine-readable form, for choosing a template quickly |
 | [scripts/script-a-long-reality-check.md](scripts/script-a-long-reality-check.md) | About 4.5 min, grade the suit system by system (format from H1) |
 | [scripts/script-b-arc-reactor-explainer.md](scripts/script-b-arc-reactor-explainer.md) | About 2.5 min, how the arc reactor would work and why it can't (format from H2) |
-| [scripts/script-c-one-problem-short.md](scripts/script-c-one-problem-short.md) | About 48 s Short, "the one problem isn't the reactor" (format from H3) |
+| [scripts/script-c-one-problem-short.md](scripts/script-c-one-problem-short.md) | About 47 s Short, "the one problem isn't the reactor", talking to camera with a shot list and three film cutaways (format from H3) |
 
 ## Using it
 
