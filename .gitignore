@@ -11,3 +11,6 @@ docs/content/**/media/
 *.mp3
 *.mkv
 *.mp4
+
+# photo-based frames (CC BY-SA sources) stay local
+docs/content/vo-01-one-problem/f*.png

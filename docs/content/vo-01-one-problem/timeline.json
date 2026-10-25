@@ -1,0 +1,454 @@
+{
+  "project": "Project Halcyon, Voiceover 1: the one problem isn't the reactor",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 47.1
+  },
+  "tracks": {
+    "video": [
+      {
+        "id": "s01",
+        "src": "f01.png",
+        "type": "image",
+        "start": 0.0,
+        "end": 3.3,
+        "motion": {
+          "type": "zoom_in",
+          "from": 1.0,
+          "to": 1.05
+        },
+        "transition_in": "cut"
+      },
+      {
+        "id": "s02",
+        "src": "f02.png",
+        "type": "image",
+        "start": 3.3,
+        "end": 6.2,
+        "motion": {
+          "type": "zoom_in",
+          "from": 1.0,
+          "to": 1.04
+        },
+        "transition_in": "cut"
+      },
+      {
+        "id": "s03",
+        "src": "f03.png",
+        "type": "image",
+        "start": 6.2,
+        "end": 8.8,
+        "motion": {
+          "type": "zoom_in",
+          "from": 1.0,
+          "to": 1.05
+        },
+        "transition_in": "cut"
+      },
+      {
+        "id": "s04",
+        "src": "f04.png",
+        "type": "image",
+        "start": 8.8,
+        "end": 12.1,
+        "motion": {
+          "type": "zoom_in",
+          "from": 1.0,
+          "to": 1.05
+        },
+        "transition_in": "cut"
+      },
+      {
+        "id": "s05",
+        "src": "f05.png",
+        "type": "image",
+        "start": 12.1,
+        "end": 15.8,
+        "motion": {
+          "type": "zoom_in",
+          "from": 1.0,
+          "to": 1.04
+        },
+        "transition_in": "cut"
+      },
+      {
+        "id": "s06",
+        "src": "f06.png",
+        "type": "image",
+        "start": 15.8,
+        "end": 20.8,
+        "motion": {
+          "type": "zoom_in",
+          "from": 1.0,
+          "to": 1.05
+        },
+        "transition_in": "cut"
+      },
+      {
+        "id": "s07",
+        "src": "f07.png",
+        "type": "image",
+        "start": 20.8,
+        "end": 24.6,
+        "motion": {
+          "type": "zoom_in",
+          "from": 1.0,
+          "to": 1.04
+        },
+        "transition_in": "cut"
+      },
+      {
+        "id": "s08",
+        "src": "f08.png",
+        "type": "image",
+        "start": 24.6,
+        "end": 26.3,
+        "motion": {
+          "type": "zoom_in",
+          "from": 1.0,
+          "to": 1.05
+        },
+        "transition_in": "cut"
+      },
+      {
+        "id": "s09",
+        "src": "f09.png",
+        "type": "image",
+        "start": 26.3,
+        "end": 36.2,
+        "motion": {
+          "type": "zoom_in",
+          "from": 1.0,
+          "to": 1.05
+        },
+        "transition_in": "cut"
+      },
+      {
+        "id": "s10",
+        "src": "f10.png",
+        "type": "image",
+        "start": 36.2,
+        "end": 44.2,
+        "motion": {
+          "type": "zoom_in",
+          "from": 1.0,
+          "to": 1.05
+        },
+        "transition_in": "cut"
+      },
+      {
+        "id": "s11",
+        "src": "f11.png",
+        "type": "image",
+        "start": 44.2,
+        "end": 47.1,
+        "motion": {
+          "type": "zoom_in",
+          "from": 1.0,
+          "to": 1.05
+        },
+        "transition_in": "cut"
+      }
+    ],
+    "voiceover": {
+      "src": "voiceover.wav",
+      "status": "to record",
+      "segments": [
+        {
+          "scene": "s01",
+          "start": 0.0,
+          "end": 3.3,
+          "text": "Everyone says the one problem stopping a real"
+        },
+        {
+          "scene": "s02",
+          "start": 3.3,
+          "end": 6.2,
+          "text": "Iron Man suit is the arc reactor."
+        },
+        {
+          "scene": "s03",
+          "start": 6.2,
+          "end": 8.8,
+          "text": "I ran the numbers. It's not."
+        },
+        {
+          "scene": "s04",
+          "start": 8.8,
+          "end": 12.1,
+          "text": "The real problem is hovering. Hovering means pushing"
+        },
+        {
+          "scene": "s05",
+          "start": 12.1,
+          "end": 15.8,
+          "text": "your whole weight down through the air, every second."
+        },
+        {
+          "scene": "s06",
+          "start": 15.8,
+          "end": 20.8,
+          "text": "My suit burns about five kilograms of fuel a minute doing that."
+        },
+        {
+          "scene": "s07",
+          "start": 20.8,
+          "end": 24.6,
+          "text": "Flying forward on a wing burns less than one."
+        },
+        {
+          "scene": "s08",
+          "start": 24.6,
+          "end": 26.3,
+          "text": "That's five times less."
+        },
+        {
+          "scene": "s09",
+          "start": 26.3,
+          "end": 36.2,
+          "text": "So the fix isn't a better power source. It's wings. They swing back for speed, open wide to turn, and tilt up to brake."
+        },
+        {
+          "scene": "s10",
+          "start": 36.2,
+          "end": 44.2,
+          "text": "With wings, the same suit flies for about an hour when launched like a glider. The reactor can wait."
+        },
+        {
+          "scene": "s11",
+          "start": 44.2,
+          "end": 47.1,
+          "text": "Follow, and I'll show you the test."
+        }
+      ]
+    },
+    "captions": {
+      "src": "captions.srt",
+      "style": {
+        "font": "Segoe UI Bold",
+        "size": 64,
+        "fill": "#ffffff",
+        "outline": "#000000",
+        "outline_px": 6,
+        "x": 540,
+        "y": 1560,
+        "max_width": 760,
+        "max_lines": 2
+      },
+      "lines": [
+        {
+          "scene": "s01",
+          "start": 0.06666666666666667,
+          "end": 2.033333333333333,
+          "text": "Everyone says the one problem"
+        },
+        {
+          "scene": "s01",
+          "start": 2.033333333333333,
+          "end": 3.2,
+          "text": "stopping a real"
+        },
+        {
+          "scene": "s02",
+          "start": 3.3333333333333335,
+          "end": 4.533333333333333,
+          "text": "Iron Man suit"
+        },
+        {
+          "scene": "s02",
+          "start": 4.533333333333333,
+          "end": 6.1,
+          "text": "is the arc reactor."
+        },
+        {
+          "scene": "s03",
+          "start": 6.266666666666667,
+          "end": 7.866666666666666,
+          "text": "I ran the numbers."
+        },
+        {
+          "scene": "s03",
+          "start": 7.866666666666666,
+          "end": 8.7,
+          "text": "It's not."
+        },
+        {
+          "scene": "s04",
+          "start": 8.866666666666667,
+          "end": 10.833333333333334,
+          "text": "The real problem is hovering."
+        },
+        {
+          "scene": "s04",
+          "start": 10.833333333333334,
+          "end": 12.0,
+          "text": "Hovering means pushing"
+        },
+        {
+          "scene": "s05",
+          "start": 12.2,
+          "end": 13.7,
+          "text": "your whole weight down"
+        },
+        {
+          "scene": "s05",
+          "start": 13.7,
+          "end": 15.6,
+          "text": "through the air, every second."
+        },
+        {
+          "scene": "s06",
+          "start": 15.9,
+          "end": 18.266666666666666,
+          "text": "My suit burns about five kilograms"
+        },
+        {
+          "scene": "s06",
+          "start": 18.266666666666666,
+          "end": 20.6,
+          "text": "of fuel a minute doing that."
+        },
+        {
+          "scene": "s07",
+          "start": 20.9,
+          "end": 22.833333333333332,
+          "text": "Flying forward on a wing"
+        },
+        {
+          "scene": "s07",
+          "start": 22.833333333333332,
+          "end": 24.4,
+          "text": "burns less than one."
+        },
+        {
+          "scene": "s08",
+          "start": 24.666666666666668,
+          "end": 26.2,
+          "text": "That's five times less."
+        },
+        {
+          "scene": "s09",
+          "start": 26.4,
+          "end": 28.0,
+          "text": "So the fix isn't"
+        },
+        {
+          "scene": "s09",
+          "start": 28.0,
+          "end": 29.6,
+          "text": "a better power source."
+        },
+        {
+          "scene": "s09",
+          "start": 29.6,
+          "end": 30.4,
+          "text": "It's wings."
+        },
+        {
+          "scene": "s09",
+          "start": 30.4,
+          "end": 32.4,
+          "text": "They swing back for speed,"
+        },
+        {
+          "scene": "s09",
+          "start": 32.4,
+          "end": 34.0,
+          "text": "open wide to turn,"
+        },
+        {
+          "scene": "s09",
+          "start": 34.0,
+          "end": 36.0,
+          "text": "and tilt up to brake."
+        },
+        {
+          "scene": "s10",
+          "start": 36.3,
+          "end": 38.733333333333334,
+          "text": "With wings, the same suit flies"
+        },
+        {
+          "scene": "s10",
+          "start": 38.733333333333334,
+          "end": 40.36666666666667,
+          "text": "for about an hour"
+        },
+        {
+          "scene": "s10",
+          "start": 40.36666666666667,
+          "end": 42.36666666666667,
+          "text": "when launched like a glider."
+        },
+        {
+          "scene": "s10",
+          "start": 42.36666666666667,
+          "end": 44.0,
+          "text": "The reactor can wait."
+        },
+        {
+          "scene": "s11",
+          "start": 44.266666666666666,
+          "end": 44.63333333333333,
+          "text": "Follow,"
+        },
+        {
+          "scene": "s11",
+          "start": 44.63333333333333,
+          "end": 47.0,
+          "text": "and I'll show you the test."
+        }
+      ]
+    },
+    "music": [
+      {
+        "start": 0.0,
+        "end": 47.1,
+        "file": "dark_drone",
+        "gain_db": -24,
+        "fade_out": 1.0
+      }
+    ],
+    "sfx": [
+      {
+        "at": 3.3,
+        "file": "whoosh_short",
+        "gain_db": -12,
+        "why": "film 1"
+      },
+      {
+        "at": 6.2,
+        "file": "impact_low",
+        "gain_db": -8,
+        "why": "It's not"
+      },
+      {
+        "at": 12.1,
+        "file": "whoosh_short",
+        "gain_db": -12,
+        "why": "film 2"
+      },
+      {
+        "at": 20.8,
+        "file": "whoosh_short",
+        "gain_db": -12,
+        "why": "film 3"
+      },
+      {
+        "at": 26.3,
+        "file": "riser_end",
+        "gain_db": -12,
+        "why": "the fix"
+      }
+    ]
+  },
+  "notes": [
+    "Scene images already contain the on-screen text, so no separate text overlays are needed.",
+    "Keep all added graphics inside y = 300..1400 and clear of x > 940 between y = 950 and y = 1650.",
+    "Captions sit at y = 1560 (below the scene text, left of the button column).",
+    "After recording, trim silences in the voiceover and re-time scene cuts and captions to match.",
+    "Music and sfx names are placeholders: use royalty-free or platform-library sounds."
+  ]
+}

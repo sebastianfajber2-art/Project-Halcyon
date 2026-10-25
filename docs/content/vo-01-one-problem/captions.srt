@@ -1,0 +1,108 @@
+1
+00:00:00,067 --> 00:00:02,033
+Everyone says the one problem
+
+2
+00:00:02,033 --> 00:00:03,200
+stopping a real
+
+3
+00:00:03,333 --> 00:00:04,533
+Iron Man suit
+
+4
+00:00:04,533 --> 00:00:06,100
+is the arc reactor.
+
+5
+00:00:06,267 --> 00:00:07,867
+I ran the numbers.
+
+6
+00:00:07,867 --> 00:00:08,700
+It's not.
+
+7
+00:00:08,867 --> 00:00:10,833
+The real problem is hovering.
+
+8
+00:00:10,833 --> 00:00:12,000
+Hovering means pushing
+
+9
+00:00:12,200 --> 00:00:13,700
+your whole weight down
+
+10
+00:00:13,700 --> 00:00:15,600
+through the air, every second.
+
+11
+00:00:15,900 --> 00:00:18,267
+My suit burns about five kilograms
+
+12
+00:00:18,267 --> 00:00:20,600
+of fuel a minute doing that.
+
+13
+00:00:20,900 --> 00:00:22,833
+Flying forward on a wing
+
+14
+00:00:22,833 --> 00:00:24,400
+burns less than one.
+
+15
+00:00:24,667 --> 00:00:26,200
+That's five times less.
+
+16
+00:00:26,400 --> 00:00:28,000
+So the fix isn't
+
+17
+00:00:28,000 --> 00:00:29,600
+a better power source.
+
+18
+00:00:29,600 --> 00:00:30,400
+It's wings.
+
+19
+00:00:30,400 --> 00:00:32,400
+They swing back for speed,
+
+20
+00:00:32,400 --> 00:00:34,000
+open wide to turn,
+
+21
+00:00:34,000 --> 00:00:36,000
+and tilt up to brake.
+
+22
+00:00:36,300 --> 00:00:38,733
+With wings, the same suit flies
+
+23
+00:00:38,733 --> 00:00:40,367
+for about an hour
+
+24
+00:00:40,367 --> 00:00:42,367
+when launched like a glider.
+
+25
+00:00:42,367 --> 00:00:44,000
+The reactor can wait.
+
+26
+00:00:44,267 --> 00:00:44,633
+Follow,
+
+27
+00:00:44,633 --> 00:00:47,000
+and I'll show you the test.
+

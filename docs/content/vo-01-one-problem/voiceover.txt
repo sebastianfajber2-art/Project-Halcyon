@@ -1,0 +1,36 @@
+VOICEOVER 1: VOICEOVER SCRIPT
+Read in one take, calm and clear, about 2 to 2.7 words per second (about 47 seconds in total).
+Take a short breath where there are three dots. Do not read the scene labels or times.
+
+[s01  0.0-3.3 s]
+Everyone says the one problem stopping a real
+
+[s02  3.3-6.2 s]
+Iron Man suit is the arc reactor.
+
+[s03  6.2-8.8 s]
+I ran the numbers. It's not.
+
+[s04  8.8-12.1 s]
+The real problem is hovering. Hovering means pushing
+
+[s05  12.1-15.8 s]
+your whole weight down through the air, every second.
+
+[s06  15.8-20.8 s]
+My suit burns about five kilograms of fuel a minute doing that.
+
+[s07  20.8-24.6 s]
+Flying forward on a wing burns less than one.
+
+[s08  24.6-26.3 s]
+That's five times less.
+
+[s09  26.3-36.2 s]
+So the fix isn't a better power source. It's wings. They swing back for speed, open wide to turn, and tilt up to brake.
+
+[s10  36.2-44.2 s]
+With wings, the same suit flies for about an hour when launched like a glider. The reactor can wait.
+
+[s11  44.2-47.1 s]
+Follow, and I'll show you the test.
