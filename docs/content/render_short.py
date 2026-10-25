@@ -40,6 +40,7 @@ ScaledBorderAndShadow: yes
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Cap,Arial,72,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,5,0,2,140,140,300,1
+Style: Credit,Arial,30,&H00D8D8D8,&H000000FF,&H00000000,&H00000000,0,1,0,0,100,100,0,0,1,3,0,1,0,0,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -159,7 +160,7 @@ def ass_time(t):
     return f"{cs // 360000}:{cs // 6000 % 60:02d}:{cs // 100 % 60:02d}.{cs % 100:02d}"
 
 
-def build_audio(out_dir, voice_wav, total, music, sfx, no_music):
+def build_audio(out_dir, short_dir, voice_wav, total, music, sfx, no_music):
     inputs = ["-i", str(voice_wav)]
     chains, mix = [], []
     if no_music:
@@ -190,13 +191,19 @@ def build_audio(out_dir, voice_wav, total, music, sfx, no_music):
         chains.append("[music][vsc]sidechaincompress=threshold=0.02:ratio=8:attack=20:release=400[duck]")
         mix.append("[duck]")
         for cue in sfx:
-            if cue["file"] not in SFX_SRC:
-                print("  warning: unknown sound effect", cue["file"], "- skipped")
+            if cue["file"] in SFX_SRC:                       # a built-in synthesised effect
+                src, post, lead = SFX_SRC[cue["file"]]
+                ms = int(max(0.0, cue["at"] - lead) * 1000)
+                inputs += ["-f", "lavfi", "-i", src]
+                chains.append(f"[{idx}:a]{post}volume={cue['gain_db']}dB,adelay={ms}|{ms}[s{idx}]")
+            elif (short_dir / cue["file"]).exists():         # your own sound file (wav, mp3, ...)
+                ms = int(max(0.0, cue["at"]) * 1000)
+                inputs += ["-i", str(short_dir / cue["file"])]
+                chains.append(f"[{idx}:a]aformat=channel_layouts=mono,volume={cue['gain_db']}dB,"
+                              f"adelay={ms}|{ms}[s{idx}]")
+            else:
+                print("  warning: sound effect not found:", cue["file"], "- skipped")
                 continue
-            src, post, lead = SFX_SRC[cue["file"]]
-            ms = int(max(0.0, cue["at"] - lead) * 1000)
-            inputs += ["-f", "lavfi", "-i", src]
-            chains.append(f"[{idx}:a]{post}volume={cue['gain_db']}dB,adelay={ms}|{ms}[s{idx}]")
             mix.append(f"[s{idx}]")
             idx += 1
     chains.append("".join(mix) + f"amix=inputs={len(mix)}:normalize=0:duration=longest,"
@@ -208,16 +215,46 @@ def build_audio(out_dir, voice_wav, total, music, sfx, no_music):
 
 
 def build_video(out_dir, short_dir, scenes, frames):
-    inputs, parts = [], []
+    """One video stream per scene (a still with slow zoom, or a clip on a blurred fill), photo overlays on
+    top, then all scenes joined. Clip audio is never used."""
+    inputs, parts, labels, n_in = [], [], [], 0
     for i, (sc, n) in enumerate(zip(scenes, frames)):
-        m = sc["motion"]
-        a, b = m["from"], m["to"]
-        inputs += ["-i", str(short_dir / sc["src"])]
-        parts.append(f"[{i}:v]scale=2160:3840:flags=lanczos,"
-                     f"zoompan=z='{a}+({b}-{a})*on/{max(n - 1, 1)}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
-                     f":d={n}:s=1080x1920:fps={FPS},setsar=1[v{i}]")
-    parts.append("".join(f"[v{i}]" for i in range(len(scenes))) +
-                 f"concat=n={len(scenes)}:v=1:a=0,format=yuv420p[vc]")
+        dur = n / FPS
+        if sc.get("type") == "clip":
+            c = sc["clip"]
+            speed = c.get("speed", 1.0)
+            path = short_dir / c["file"]
+            if not path.exists():
+                sys.exit(f"clip not found: {path}")
+            inputs += ["-ss", f"{c.get('in', 0):.3f}", "-t", f"{dur * speed + 1:.3f}", "-i", str(path)]
+            parts.append(
+                f"[{n_in}:v]setpts=(PTS-STARTPTS)/{speed},fps={FPS},split=2[bg{i}][fg{i}];"
+                f"[bg{i}]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,"
+                f"boxblur=40:6,eq=brightness=-0.12[bb{i}];"
+                f"[fg{i}]scale=1080:-2[ff{i}];"
+                f"[bb{i}][ff{i}]overlay=(W-w)/2:(H-h)/2,tpad=stop_mode=clone:stop_duration=3,"
+                f"trim=end_frame={n},setpts=PTS-STARTPTS,setsar=1[b{i}]")
+        else:
+            m = sc.get("motion", {"from": 1.0, "to": 1.0})
+            a, b = m["from"], m["to"]
+            inputs += ["-i", str(short_dir / sc["src"])]
+            parts.append(f"[{n_in}:v]scale=2160:3840:flags=lanczos,"
+                         f"zoompan=z='{a}+({b}-{a})*on/{max(n - 1, 1)}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
+                         f":d={n}:s=1080x1920:fps={FPS},setsar=1[b{i}]")
+        n_in += 1
+        cur = f"[b{i}]"
+        for k, ov in enumerate(sc.get("overlays", [])):
+            path = short_dir / ov["file"]
+            if not path.exists():
+                sys.exit(f"photo not found: {path}")
+            inputs += ["-loop", "1", "-framerate", str(FPS), "-t", f"{dur:.3f}", "-i", str(path)]
+            parts.append(f"[{n_in}:v]scale={int(ov['w'])}:-2,format=rgba[o{i}_{k}]")
+            parts.append(f"{cur}[o{i}_{k}]overlay=x={int(ov['x'])}:y={int(ov['y'])}:"
+                         f"enable='between(t,{ov['start']},{ov['end']})'[b{i}_{k}]")
+            cur = f"[b{i}_{k}]"
+            n_in += 1
+        labels.append(cur)
+    parts.append("".join(labels) + f"concat=n={len(scenes)}:v=1:a=0,format=yuv420p[vc]")
     parts.append("[vc]subtitles=captions_final.ass[vout]")
     out = out_dir / "video_silent.mp4"
     run([FFMPEG, "-y", "-v", "error", *inputs, "-filter_complex", ";".join(parts), "-map", "[vout]",
@@ -296,9 +333,17 @@ def main():
     (out_dir / "captions_final.srt").write_text("".join(
         f"{i}\n{srt_time(c['start'])} --> {srt_time(c['end'])}\n{c['text']}\n\n"
         for i, c in enumerate(caps, 1)), encoding="utf-8")
+    # small source credit above each photo overlay that has one (e.g. "Marvel Studios (still)")
+    credits = ""
+    for i, sc in enumerate(scenes):
+        for ov in sc.get("overlays", []):
+            if ov.get("credit"):
+                a, b = new[i] + ov["start"], min(new[i] + ov["end"], new[i + 1])
+                credits += (f"Dialogue: 1,{ass_time(a)},{ass_time(b)},Credit,,0,0,0,,"
+                            f"{{\\an1\\pos({int(ov['x'])},{int(ov['y']) - 8})}}{ov['credit']}\n")
     (out_dir / "captions_final.ass").write_text(ASS_HEADER + "".join(
-        f"Dialogue: 0,{ass_time(c['start'])},{ass_time(c['end'])},Cap,,0,0,0,,{c['text']}\n" for c in caps),
-        encoding="utf-8")
+        f"Dialogue: 0,{ass_time(c['start'])},{ass_time(c['end'])},Cap,,0,0,0,,{c['text']}\n" for c in caps)
+        + credits, encoding="utf-8")
 
     sfx =[{**c, "at": tmap(c["at"])} for c in tl["tracks"]["sfx"]]
     music = [{**m, "start": tmap(m["start"]), "end": min(tmap(m["end"]), total)} for m in tl["tracks"]["music"]]
@@ -311,7 +356,7 @@ def main():
          "-ac", "1", "-ar", "48000", str(voice_wav)])
 
     # 4. render
-    audio = build_audio(out_dir, voice_wav, total, music, sfx, args.no_music)
+    audio = build_audio(out_dir, short_dir, voice_wav, total, music, sfx, args.no_music)
     video = build_video(out_dir, short_dir, scenes, frames)
     final = out_dir / f"{name}.mp4"
     run([FFMPEG, "-y", "-v", "error", "-i", str(video), "-i", str(audio), "-c:v", "copy", "-c:a", "aac",

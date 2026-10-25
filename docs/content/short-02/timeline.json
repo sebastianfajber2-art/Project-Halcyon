@@ -11,6 +11,7 @@
       {
         "id": "s01",
         "src": "scene-01.png",
+        "type": "image",
         "start": 0.0,
         "end": 6.5,
         "motion": {
@@ -23,6 +24,7 @@
       {
         "id": "s02",
         "src": "scene-02.png",
+        "type": "image",
         "start": 6.5,
         "end": 13.0,
         "motion": {
@@ -35,6 +37,7 @@
       {
         "id": "s03",
         "src": "scene-03.png",
+        "type": "image",
         "start": 13.0,
         "end": 20.0,
         "motion": {
@@ -47,6 +50,7 @@
       {
         "id": "s04",
         "src": "scene-04.png",
+        "type": "image",
         "start": 20.0,
         "end": 29.0,
         "motion": {
@@ -59,6 +63,7 @@
       {
         "id": "s05",
         "src": "scene-05.png",
+        "type": "image",
         "start": 29.0,
         "end": 37.0,
         "motion": {
@@ -71,6 +76,7 @@
       {
         "id": "s06",
         "src": "scene-06.png",
+        "type": "image",
         "start": 37.0,
         "end": 46.0,
         "motion": {
@@ -83,6 +89,7 @@
       {
         "id": "s07",
         "src": "scene-07.png",
+        "type": "image",
         "start": 46.0,
         "end": 52.5,
         "motion": {

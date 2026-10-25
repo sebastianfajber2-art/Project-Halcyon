@@ -65,6 +65,26 @@ CAPTION_STYLE = {"font": "Segoe UI Bold", "size": 64, "fill": "#ffffff", "outlin
                  "outline_px": 6, "x": 540, "y": 1560, "max_width": 760, "max_lines": 2}
 
 
+def video_entry(s):
+    """A scene is a still image (default) or a video clip, optionally with photo overlays.
+
+    image scene:  {"image": "scene-01.png", "motion": {...}}
+    clip scene:   {"clip": {"file": "media/x.mp4", "in": 12.0, "speed": 1.0}}   (clip audio is never used)
+    overlays:     [{"file": "media/photo.jpg", "x": 60, "y": 520, "w": 360, "start": 0.5, "end": 4.0,
+                    "credit": "Marvel Studios (still)"}]   (start/end are seconds from the scene start)
+    """
+    entry = {"id": s["id"], "src": s.get("image") or s["clip"]["file"],
+             "type": "clip" if "clip" in s else "image",
+             "start": snap(s["start"]), "end": snap(s["end"]),
+             "motion": s.get("motion", {"type": "none", "from": 1.0, "to": 1.0}),
+             "transition_in": "cut"}
+    if "clip" in s:
+        entry["clip"] = s["clip"]
+    if s.get("overlays"):
+        entry["overlays"] = s["overlays"]
+    return entry
+
+
 def phrases(s):
     return [p.strip().replace("...", "…") for p in s["vo"].split("|")]
 
@@ -128,8 +148,7 @@ def main():
         "project": f"Project Halcyon, {TITLE}",
         "format": {"width": W, "height": H, "fps": FPS, "duration": SCENES[-1]["end"]},
         "tracks": {
-            "video": [{"id": s["id"], "src": s["image"], "start": snap(s["start"]), "end": snap(s["end"]),
-                       "motion": s["motion"], "transition_in": "cut"} for s in SCENES],
+            "video": [video_entry(s) for s in SCENES],
             "voiceover": {"src": "voiceover.wav", "status": "to record",
                           "segments": [{"scene": s["id"], "start": s["start"], "end": s["end"],
                                         "text": plain(s)} for s in SCENES]},

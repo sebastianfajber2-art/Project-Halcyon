@@ -1,0 +1,186 @@
+{
+  "project": "Project Halcyon, Clip template: Is Iron Man's flight realistic?",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 15.0
+  },
+  "tracks": {
+    "video": [
+      {
+        "id": "s01",
+        "src": "media/clip_test.mp4",
+        "type": "clip",
+        "start": 0.0,
+        "end": 4.5,
+        "motion": {
+          "type": "none",
+          "from": 1.0,
+          "to": 1.0
+        },
+        "transition_in": "cut",
+        "clip": {
+          "file": "media/clip_test.mp4",
+          "in": 1.0,
+          "speed": 1.0
+        }
+      },
+      {
+        "id": "s02",
+        "src": "../short-01/scene-02.png",
+        "type": "image",
+        "start": 4.5,
+        "end": 10.5,
+        "motion": {
+          "type": "zoom_in",
+          "from": 1.0,
+          "to": 1.05
+        },
+        "transition_in": "cut",
+        "overlays": [
+          {
+            "file": "media/photo_test.png",
+            "x": 60,
+            "y": 760,
+            "w": 330,
+            "start": 0.4,
+            "end": 5.0,
+            "credit": "Test photo (stand-in)"
+          }
+        ]
+      },
+      {
+        "id": "s03",
+        "src": "../short-01/scene-07.png",
+        "type": "image",
+        "start": 10.5,
+        "end": 15.0,
+        "motion": {
+          "type": "zoom_in",
+          "from": 1.0,
+          "to": 1.03
+        },
+        "transition_in": "cut"
+      }
+    ],
+    "voiceover": {
+      "src": "voiceover.wav",
+      "status": "to record",
+      "segments": [
+        {
+          "scene": "s01",
+          "start": 0.0,
+          "end": 4.5,
+          "text": "Iron Man flies faster than sound. But is that realistic?"
+        },
+        {
+          "scene": "s02",
+          "start": 4.5,
+          "end": 10.5,
+          "text": "Here's the problem. Tony Stark's suit would need a power source that doesn't exist."
+        },
+        {
+          "scene": "s03",
+          "start": 10.5,
+          "end": 15.0,
+          "text": "So I'm building the real thing. Follow along."
+        }
+      ]
+    },
+    "captions": {
+      "src": "captions.srt",
+      "style": {
+        "font": "Segoe UI Bold",
+        "size": 64,
+        "fill": "#ffffff",
+        "outline": "#000000",
+        "outline_px": 6,
+        "x": 540,
+        "y": 1560,
+        "max_width": 760,
+        "max_lines": 2
+      },
+      "lines": [
+        {
+          "scene": "s01",
+          "start": 0.1,
+          "end": 2.6333333333333333,
+          "text": "Iron Man flies faster than sound."
+        },
+        {
+          "scene": "s01",
+          "start": 2.6333333333333333,
+          "end": 4.3,
+          "text": "But is that realistic?"
+        },
+        {
+          "scene": "s02",
+          "start": 4.6,
+          "end": 5.833333333333333,
+          "text": "Here's the problem."
+        },
+        {
+          "scene": "s02",
+          "start": 5.833333333333333,
+          "end": 7.866666666666666,
+          "text": "Tony Stark's suit would need"
+        },
+        {
+          "scene": "s02",
+          "start": 7.866666666666666,
+          "end": 10.3,
+          "text": "a power source that doesn't exist."
+        },
+        {
+          "scene": "s03",
+          "start": 10.6,
+          "end": 13.733333333333333,
+          "text": "So I'm building the real thing."
+        },
+        {
+          "scene": "s03",
+          "start": 13.733333333333333,
+          "end": 14.8,
+          "text": "Follow along."
+        }
+      ]
+    },
+    "music": [
+      {
+        "start": 0.0,
+        "end": 15.0,
+        "file": "dark_drone",
+        "gain_db": -22,
+        "fade_out": 1.0
+      }
+    ],
+    "sfx": [
+      {
+        "at": 0.0,
+        "file": "whoosh_short",
+        "gain_db": -12,
+        "why": "opening"
+      },
+      {
+        "at": 4.5,
+        "file": "media/pop_test.wav",
+        "gain_db": -10,
+        "why": "your own sound file"
+      },
+      {
+        "at": 10.5,
+        "file": "impact_low",
+        "gain_db": -8,
+        "why": "the turn to the project"
+      }
+    ]
+  },
+  "notes": [
+    "Scene images already contain the on-screen text, so no separate text overlays are needed.",
+    "Keep all added graphics inside y = 300..1400 and clear of x > 940 between y = 950 and y = 1650.",
+    "Captions sit at y = 1560 (below the scene text, left of the button column).",
+    "After recording, trim silences in the voiceover and re-time scene cuts and captions to match.",
+    "Music and sfx names are placeholders: use royalty-free or platform-library sounds."
+  ]
+}

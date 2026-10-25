@@ -1,0 +1,12 @@
+CLIP TEMPLATE: VOICEOVER SCRIPT
+Read in one take, calm and clear, about 2 to 2.7 words per second (about 15 seconds in total).
+Take a short breath where there are three dots. Do not read the scene labels or times.
+
+[s01  0.0-4.5 s]
+Iron Man flies faster than sound. But is that realistic?
+
+[s02  4.5-10.5 s]
+Here's the problem. Tony Stark's suit would need a power source that doesn't exist.
+
+[s03  10.5-15.0 s]
+So I'm building the real thing. Follow along.

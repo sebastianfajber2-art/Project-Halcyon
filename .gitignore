@@ -5,6 +5,7 @@ __pycache__/
 
 # rendered videos and voice recordings stay on your PC
 docs/content/**/final/
+docs/content/**/media/
 *.wav
 *.m4a
 *.mp3

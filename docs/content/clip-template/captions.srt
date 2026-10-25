@@ -1,0 +1,28 @@
+1
+00:00:00,100 --> 00:00:02,633
+Iron Man flies faster than sound.
+
+2
+00:00:02,633 --> 00:00:04,300
+But is that realistic?
+
+3
+00:00:04,600 --> 00:00:05,833
+Here's the problem.
+
+4
+00:00:05,833 --> 00:00:07,867
+Tony Stark's suit would need
+
+5
+00:00:07,867 --> 00:00:10,300
+a power source that doesn't exist.
+
+6
+00:00:10,600 --> 00:00:13,733
+So I'm building the real thing.
+
+7
+00:00:13,733 --> 00:00:14,800
+Follow along.
+

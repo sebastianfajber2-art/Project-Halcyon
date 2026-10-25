@@ -35,6 +35,10 @@ It tells you when a cut is only estimated because no clear pause was found; chec
 - The music and sound effects are synthesised placeholders (nothing to license). If you prefer a platform-library track, render with `--no-music` and add it in the app.
 - Post to TikTok, YouTube Shorts and Instagram Reels from the phone app for the best reach.
 
+## Videos with your own clips and photos
+
+`clip-template/` shows how to mix your own video clips, photos and sound files with the project graphics, still with one command to render. Read its README first, especially the rules on using other people's footage.
+
 ## Needs
 
 Python 3, `numpy`, and `ffmpeg` on the PATH. Videos and voice recordings are git-ignored and stay on your PC.
