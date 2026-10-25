@@ -1,0 +1,230 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1480" width="2400" height="1480" font-family="Segoe UI, Arial, sans-serif">
+  <!-- Project Halcyon concept sheet A. Scale ~520 px per metre in all three views. -->
+  <defs>
+    <pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse">
+      <path d="M52 0H0V52" fill="none" stroke="#132033" stroke-width="1"/>
+    </pattern>
+    <style>
+      .ln { stroke: #cfe0f5; stroke-width: 2; stroke-linejoin: miter; }
+      .ar { fill: #1d2a3d; }
+      .ar2 { fill: #24344b; }
+      .wg { fill: #3d8bff; fill-opacity: 0.85; stroke: #9cc4ff; stroke-width: 2; }
+      .wd { fill: none; stroke: #9cc4ff; stroke-width: 2; stroke-dasharray: 10 8; }
+      .tb { fill: #5b6f88; stroke: #cfe0f5; stroke-width: 2; }
+      .or { fill: #ff7a1a; }
+      .ors { fill: none; stroke: #ff7a1a; stroke-width: 4; }
+      .vz { fill: #4f97ff; }
+      .ld { stroke: #7f93ad; stroke-width: 1.5; fill: none; }
+      .bl { fill: #0d1420; stroke: #cfe0f5; stroke-width: 2; }
+      .bt { fill: #e9eff7; font-size: 20px; font-weight: 700; text-anchor: middle; }
+      .lab { fill: #8fa3bd; font-size: 22px; letter-spacing: 2px; }
+      .leg { fill: #cfe0f5; font-size: 21px; }
+      .dim { stroke: #7f93ad; stroke-width: 1.5; }
+      .dt { fill: #8fa3bd; font-size: 20px; }
+      .ex { stroke: #ff9d57; stroke-width: 3; stroke-dasharray: 6 8; fill: none; }
+    </style>
+  </defs>
+
+  <rect width="2400" height="1480" fill="#0d1420"/>
+  <rect width="2400" height="1480" fill="url(#grid)"/>
+
+  <text x="60" y="78" fill="#e9eff7" font-size="44" font-weight="700" letter-spacing="4">PROJECT HALCYON</text>
+  <text x="530" y="78" fill="#8fa3bd" font-size="30">Concept sheet A</text>
+  <text x="60" y="120" fill="#8fa3bd" font-size="22">Flight configuration, 177 kg incl. pilot · 2,440 N thrust · span 2.7 m (turn) / 1.6 m (speed) · illustration, not for manufacture</text>
+  <line x1="60" y1="150" x2="2340" y2="150" stroke="#24344b" stroke-width="2"/>
+
+  <text x="230" y="205" class="lab">FRONT · STANDING, WINGS STOWED</text>
+  <text x="925" y="205" class="lab">SIDE · STANDING</text>
+  <text x="1640" y="205" class="lab">TOP · IN FLIGHT, TURN MODE</text>
+
+  <!-- ============ FRONT VIEW (centre x = 400, ground y = 1230) ============ -->
+  <!-- stowed wings behind the shoulders -->
+  <polygon class="wg" points="302,456 262,250 290,242 332,440"/>
+  <polygon class="wg" points="498,456 538,250 510,242 468,440"/>
+  <!-- back turbines peeking over the shoulders -->
+  <rect class="tb" x="338" y="404" width="30" height="40" rx="6"/>
+  <rect class="tb" x="432" y="404" width="30" height="40" rx="6"/>
+
+  <!-- arms (left side of drawing = suit's right) -->
+  <polygon class="ar ln" points="210,520 256,526 250,690 205,690"/>
+  <polygon class="ar2 ln" points="205,696 250,696 240,870 200,870"/>
+  <rect class="tb" x="166" y="742" width="34" height="108" rx="8"/>
+  <polygon class="tb" points="170,850 196,850 202,870 164,870"/>
+  <polygon class="ar ln" points="200,874 240,874 236,932 204,932"/>
+  <polygon class="ar ln" points="590,520 544,526 550,690 595,690"/>
+  <polygon class="ar2 ln" points="595,696 550,696 560,870 600,870"/>
+  <rect class="tb" x="600" y="742" width="34" height="108" rx="8"/>
+  <polygon class="tb" points="604,850 630,850 636,870 598,870"/>
+  <polygon class="ar ln" points="600,874 560,874 564,932 596,932"/>
+  <rect x="203" y="896" width="34" height="10" class="or"/>
+
+  <!-- pauldrons -->
+  <polygon class="ar2 ln" points="262,462 206,470 190,522 232,542 282,520"/>
+  <polygon class="ar2 ln" points="538,462 594,470 610,522 568,542 518,520"/>
+
+  <!-- torso -->
+  <polygon class="ar ln" points="330,430 470,430 540,462 520,560 480,640 440,690 360,690 320,640 280,560 260,462"/>
+  <polyline class="ln" fill="none" points="330,430 400,500 470,430"/>
+  <polyline class="ln" fill="none" points="280,560 400,600 520,560"/>
+  <line class="ln" x1="400" y1="500" x2="400" y2="690"/>
+  <polygon class="or" points="400,516 418,546 400,576 382,546"/>
+
+  <!-- HANS collar -->
+  <polygon class="ar2 ln" points="360,398 440,398 472,430 328,430"/>
+
+  <!-- helmet -->
+  <polygon class="ar ln" points="400,263 452,285 468,330 458,380 430,398 370,398 342,380 332,330 348,285"/>
+  <polygon class="vz" points="356,330 444,330 456,346 420,364 380,364 344,346"/>
+  <line class="ln" x1="400" y1="263" x2="400" y2="320"/>
+
+  <!-- belt -->
+  <polygon class="ar2 ln" points="322,690 478,690 488,736 312,736"/>
+
+  <!-- legs -->
+  <polygon class="ar ln" points="316,740 392,740 382,942 330,942"/>
+  <polygon class="ar ln" points="484,740 408,740 418,942 470,942"/>
+  <polygon class="ar2 ln" points="330,986 382,986 372,1170 340,1170"/>
+  <polygon class="ar2 ln" points="470,986 418,986 428,1170 460,1170"/>
+  <polygon class="ar ln" points="326,1172 386,1172 398,1230 308,1230"/>
+  <polygon class="ar ln" points="474,1172 414,1172 402,1230 492,1230"/>
+  <!-- leg turbines on the outer thigh -->
+  <rect class="tb" x="282" y="790" width="30" height="140" rx="8"/>
+  <rect class="tb" x="488" y="790" width="30" height="140" rx="8"/>
+  <!-- hip and knee actuators (EXO-01) -->
+  <circle cx="340" cy="748" r="22" class="ar2 ln"/><circle cx="340" cy="748" r="10" class="or"/>
+  <circle cx="460" cy="748" r="22" class="ar2 ln"/><circle cx="460" cy="748" r="10" class="or"/>
+  <circle cx="340" cy="964" r="28" class="ar2 ln"/><circle cx="340" cy="964" r="28" class="ors"/>
+  <circle cx="460" cy="964" r="28" class="ar2 ln"/><circle cx="460" cy="964" r="28" class="ors"/>
+
+  <!-- front height dimension -->
+  <line class="dim" x1="90" y1="263" x2="90" y2="1230"/>
+  <line class="dim" x1="80" y1="263" x2="100" y2="263"/><line class="dim" x1="80" y1="1230" x2="100" y2="1230"/>
+  <text class="dt" x="72" y="750" transform="rotate(-90 72 750)" text-anchor="middle">1.86 m</text>
+  <line x1="150" y1="1232" x2="650" y2="1232" stroke="#24344b" stroke-width="3"/>
+
+  <!-- ============ SIDE VIEW (facing right, ground y = 1230) ============ -->
+  <!-- folded wing along the back -->
+  <polygon class="wg" points="930,300 962,296 968,820 940,840"/>
+  <!-- back module: frame, tank, turbines, parachute -->
+  <rect class="ar2 ln" x="972" y="452" width="74" height="236" rx="10"/>
+  <rect x="984" y="476" width="50" height="196" rx="18" fill="#2b3e58" stroke="#ff7a1a" stroke-width="2"/>
+  <rect class="tb" x="942" y="500" width="32" height="178" rx="8"/>
+  <polygon class="tb" points="946,678 970,678 976,700 940,700"/>
+  <rect class="ar2 ln" x="986" y="430" width="56" height="26" rx="4"/>
+  <circle cx="990" cy="470" r="10" class="or"/>
+  <path class="ex" d="M958 708 L944 760 M958 708 L958 770 M958 708 L972 760"/>
+
+  <!-- helmet -->
+  <polygon class="ar ln" points="1080,263 1130,270 1160,305 1168,350 1150,392 1110,398 1070,390 1060,330"/>
+  <polygon class="vz" points="1134,318 1166,328 1162,356 1134,350"/>
+  <!-- collar and torso -->
+  <polygon class="ar2 ln" points="1070,398 1128,398 1140,430 1060,430"/>
+  <polygon class="ar ln" points="1062,430 1136,430 1168,470 1162,600 1142,690 1048,690 1040,470"/>
+  <line class="ln" x1="1100" y1="430" x2="1110" y2="690"/>
+  <polygon class="or" points="1160,520 1168,546 1160,572 1152,546"/>
+  <!-- arm -->
+  <polygon class="ar2 ln" points="1078,470 1122,474 1126,690 1084,690"/>
+  <polygon class="ar ln" points="1084,696 1126,696 1140,870 1100,870"/>
+  <rect class="tb" x="1066" y="742" width="30" height="108" rx="8"/>
+  <polygon class="ar ln" points="1100,874 1140,874 1150,930 1110,930"/>
+  <polygon class="ar2 ln" points="1074,466 1136,466 1144,520 1080,528"/>
+  <!-- belt, legs -->
+  <polygon class="ar2 ln" points="1046,690 1144,690 1150,736 1044,736"/>
+  <polygon class="ar ln" points="1052,740 1146,740 1128,942 1068,942"/>
+  <polygon class="ar2 ln" points="1072,986 1124,986 1118,1170 1080,1170"/>
+  <polygon class="ar ln" points="1070,1172 1124,1172 1168,1206 1170,1230 1062,1230"/>
+  <rect class="tb" x="1034" y="980" width="32" height="140" rx="8"/>
+  <path class="ex" d="M1050 1124 L1038 1170 M1050 1124 L1050 1180"/>
+  <circle cx="1098" cy="748" r="22" class="ar2 ln"/><circle cx="1098" cy="748" r="10" class="or"/>
+  <circle cx="1098" cy="964" r="28" class="ar2 ln"/><circle cx="1098" cy="964" r="28" class="ors"/>
+  <line x1="880" y1="1232" x2="1320" y2="1232" stroke="#24344b" stroke-width="3"/>
+  <!-- depth dimension -->
+  <line class="dim" x1="930" y1="1280" x2="1168" y2="1280"/>
+  <line class="dim" x1="930" y1="1270" x2="930" y2="1290"/><line class="dim" x1="1168" y1="1270" x2="1168" y2="1290"/>
+  <text class="dt" x="1049" y="1268" text-anchor="middle">0.46 m incl. back module</text>
+
+  <!-- ============ TOP VIEW IN FLIGHT (head = flight direction, up) ============ -->
+  <polygon class="wg" points="1981,570 2303,590 2303,716 1981,808"/>
+  <polygon class="wg" points="1869,570 1547,590 1547,716 1869,808"/>
+  <polygon class="wd" points="1981,590 2161,784 2133,866 1981,762"/>
+  <polygon class="wd" points="1869,590 1689,784 1717,866 1869,762"/>
+  <polygon class="ar ln" points="1857,590 1837,602 1825,790 1841,814 1853,642"/>
+  <polygon class="ar ln" points="1993,590 2013,602 2025,790 2009,814 1997,642"/>
+  <polygon class="ar ln" points="1901,830 1921,830 1917,990 1905,1014 1889,990"/>
+  <polygon class="ar ln" points="1929,830 1949,830 1961,990 1945,1014 1933,990"/>
+  <polygon class="ar ln" points="1869,558 1981,558 1993,630 1973,790 1949,826 1901,826 1877,790 1857,630"/>
+  <polygon class="ar ln" points="1925,466 1957,498 1949,542 1901,542 1893,498"/>
+  <rect x="1901" y="634" width="48" height="124" rx="10" fill="#2b3e58" stroke="#ff7a1a" stroke-width="2"/>
+  <rect class="tb" x="1869" y="642" width="24" height="104" rx="6"/>
+  <rect class="tb" x="1957" y="642" width="24" height="104" rx="6"/>
+  <rect class="tb" x="1861" y="882" width="20" height="80" rx="5"/>
+  <rect class="tb" x="1969" y="882" width="20" height="80" rx="5"/>
+  <rect class="tb" x="1813" y="762" width="16" height="44" rx="4"/>
+  <rect class="tb" x="2021" y="762" width="16" height="44" rx="4"/>
+  <rect class="ar2 ln" x="1905" y="570" width="40" height="52" rx="4"/>
+  <circle cx="1981" cy="582" r="10" class="or"/><circle cx="1869" cy="582" r="10" class="or"/>
+  <path class="ex" d="M1881 750 L1881 800 M1969 750 L1969 800 M1871 966 L1871 1010 M1979 966 L1979 1010"/>
+  <path d="M1925 300 L1925 420 M1910 330 L1925 300 L1940 330" stroke="#7f93ad" stroke-width="2" fill="none"/>
+  <text class="dt" x="1945" y="360">flight direction</text>
+  <!-- span dimension -->
+  <line class="dim" x1="1547" y1="1090" x2="2303" y2="1090"/>
+  <line class="dim" x1="1547" y1="1080" x2="1547" y2="1100"/><line class="dim" x1="2303" y1="1080" x2="2303" y2="1100"/>
+  <text class="dt" x="1925" y="1126" text-anchor="middle">2.7 m span, turn mode · dashed: 1.6 m, speed mode (50° sweep)</text>
+
+  <!-- ============ BALLOONS ============ -->
+  <g class="ld">
+    <line x1="455" y1="300" x2="562" y2="300"/>
+    <line x1="462" y1="418" x2="577" y2="420"/>
+    <line x1="530" y1="256" x2="622" y2="250"/>
+    <line x1="418" y1="546" x2="660" y2="560"/>
+    <line x1="166" y1="796" x2="138" y2="796"/>
+    <line x1="203" y1="901" x2="138" y2="940"/>
+    <line x1="282" y1="860" x2="138" y2="868"/>
+    <line x1="482" y1="748" x2="660" y2="748"/>
+    <line x1="488" y1="964" x2="660" y2="964"/>
+    <line x1="942" y1="590" x2="880" y2="590"/>
+    <line x1="1008" y1="640" x2="880" y2="660"/>
+    <line x1="986" y1="442" x2="880" y2="442"/>
+    <line x1="934" y1="360" x2="880" y2="360"/>
+    <line x1="1126" y1="964" x2="1230" y2="964"/>
+    <line x1="1034" y1="1060" x2="960" y2="1080"/>
+    <line x1="1129" y1="270" x2="1230" y2="250"/>
+    <line x1="2250" y1="650" x2="2290" y2="520"/>
+  </g>
+  <g>
+    <circle class="bl" cx="580" cy="300" r="19"/><text class="bt" x="580" y="307">1</text>
+    <circle class="bl" cx="595" cy="420" r="19"/><text class="bt" x="595" y="427">2</text>
+    <circle class="bl" cx="640" cy="250" r="19"/><text class="bt" x="640" y="257">7</text>
+    <circle class="bl" cx="678" cy="560" r="19"/><text class="bt" x="678" y="567">3</text>
+    <circle class="bl" cx="120" cy="796" r="19"/><text class="bt" x="120" y="803">4</text>
+    <circle class="bl" cx="120" cy="940" r="19"/><text class="bt" x="120" y="947">12</text>
+    <circle class="bl" cx="120" cy="868" r="19"/><text class="bt" x="120" y="875">10</text>
+    <circle class="bl" cx="678" cy="748" r="19"/><text class="bt" x="678" y="755">8</text>
+    <circle class="bl" cx="678" cy="964" r="19"/><text class="bt" x="678" y="971">9</text>
+    <circle class="bl" cx="862" cy="590" r="19"/><text class="bt" x="862" y="597">5</text>
+    <circle class="bl" cx="862" cy="660" r="19"/><text class="bt" x="862" y="667">6</text>
+    <circle class="bl" cx="862" cy="442" r="19"/><text class="bt" x="862" y="449">11</text>
+    <circle class="bl" cx="862" cy="360" r="19"/><text class="bt" x="862" y="367">7</text>
+    <circle class="bl" cx="1248" cy="964" r="19"/><text class="bt" x="1248" y="971">9</text>
+    <circle class="bl" cx="942" cy="1086" r="19"/><text class="bt" x="942" y="1093">10</text>
+    <circle class="bl" cx="1248" cy="250" r="19"/><text class="bt" x="1248" y="257">1</text>
+    <circle class="bl" cx="2296" cy="502" r="19"/><text class="bt" x="2296" y="509">7</text>
+  </g>
+
+  <!-- ============ LEGEND ============ -->
+  <line x1="60" y1="1330" x2="2340" y2="1330" stroke="#24344b" stroke-width="2"/>
+  <g class="leg">
+    <text x="60" y="1378">1  Helmet: HUD, cameras, comms</text>
+    <text x="60" y="1420">2  HANS collar, locks helmet to frame</text>
+    <text x="60" y="1462">3  Faceted carbon armor, status light</text>
+    <text x="640" y="1378">4  Arm thrusters 2 × 120 N (steering)</text>
+    <text x="640" y="1420">5  Back turbines 2 × 550 N (cruise)</text>
+    <text x="640" y="1462">6  Crash-safe fuel cell, 40–100 L</text>
+    <text x="1240" y="1378">7  Swing wings: stowed / turn / speed / stop</text>
+    <text x="1240" y="1420">8  Hip actuators (exoskeleton)</text>
+    <text x="1240" y="1462">9  EXO-01 knee actuators, 164 N·m</text>
+    <text x="1880" y="1378">10  Leg turbines 2 × 550 N (lift)</text>
+    <text x="1880" y="1420">11  Ballistic parachute</text>
+    <text x="1880" y="1462">12  Grips: throttle, mode, red button</text>
+  </g>
+</svg>
