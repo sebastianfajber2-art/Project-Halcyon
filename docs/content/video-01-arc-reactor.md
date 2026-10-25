@@ -63,6 +63,7 @@ Thumbnail: you holding a glowing ring (cardboard + phone torch is fine), big tex
 >
 > Code, calculations and CAD (open source): https://github.com/sebastianfajber2-art/Project-Halcyon
 > Support the build: [Ko-fi link]
+> Instagram: https://www.instagram.com/projectha1cyon/
 >
 > Safety: this is an engineering project following a gated test plan. Nothing shown here is cleared to build, wear or fly. Do not attempt jet-powered flight.
 

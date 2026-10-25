@@ -10,11 +10,11 @@ Use one name everywhere so people can find the project from any platform.
 | --- | --- | --- | --- |
 | YouTube | Project Halcyon | @projecthalcyon | @halcyonsuit, @projecthalcyonbuild |
 | TikTok | Project Halcyon | @projecthalcyon | same fallbacks |
-| Instagram | Project Halcyon | @projecthalcyon | same fallbacks |
+| Instagram | Project Halcyon | **@projectha1cyon** (chosen, with the digit 1 in place of the l) | — |
 | Ko-fi | Project Halcyon | ko-fi.com/projecthalcyon | — |
 | Hackaday.io | Project Halcyon: a physics-honest jet wing suit | — | — |
 
-Check that the handles are free on all platforms before creating any of them.
+Instagram is taken as @projectha1cyon. Use the same spelling, with the 1, on YouTube and TikTok so people find every account from one name, and always write it out in full in videos ("project ha-one-cyon") because the 1 is easy to misread as an l. Contact email for now: the NorthWeb Gmail; a dedicated Halcyon address comes later.
 
 ## Bio (all platforms)
 

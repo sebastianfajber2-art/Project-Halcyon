@@ -24,6 +24,8 @@ A physics-honest jet wing suit: kerosene micro-turbines, retractable swing wings
 | `cad/exo01_build.py` | Fusion API script that builds the EXO-01 knee actuator model (Rev B) |
 | `docs/social-media-plan.md` | Build-in-public and funding plan |
 
+Follow the build on Instagram: [@projectha1cyon](https://www.instagram.com/projectha1cyon/).
+
 The full system design document (requirements, part list, calculations, drawings, safety analysis, test plan, roadmap) lives as a shared doc; ask the project owner for access.
 
 ## Run it
