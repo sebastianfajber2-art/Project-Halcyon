@@ -1,0 +1,84 @@
+1
+00:00:00,067 --> 00:00:01,467
+Iron Man's arc reactor
+
+2
+00:00:01,467 --> 00:00:02,900
+would cook him alive.
+
+3
+00:00:03,100 --> 00:00:05,467
+In the movie it makes
+
+4
+00:00:05,467 --> 00:00:07,367
+three gigajoules every second.
+
+5
+00:00:07,367 --> 00:00:08,800
+From his chest.
+
+6
+00:00:09,100 --> 00:00:10,533
+But no machine
+
+7
+00:00:10,533 --> 00:00:12,900
+is a hundred percent efficient.
+
+8
+00:00:12,900 --> 00:00:14,800
+Even at ninety percent…
+
+9
+00:00:15,100 --> 00:00:16,633
+…that's three hundred million
+
+10
+00:00:16,633 --> 00:00:18,133
+watts of waste heat.
+
+11
+00:00:18,133 --> 00:00:19,667
+A small power plant,
+
+12
+00:00:19,667 --> 00:00:20,800
+on his ribs.
+
+13
+00:00:21,100 --> 00:00:23,633
+Your body can get rid of
+
+14
+00:00:23,633 --> 00:00:25,300
+about three hundred watts.
+
+15
+00:00:25,600 --> 00:00:26,767
+So I'm building
+
+16
+00:00:26,767 --> 00:00:28,333
+a real flying suit.
+
+17
+00:00:28,333 --> 00:00:29,900
+Rule one: physics wins.
+
+18
+00:00:29,900 --> 00:00:32,233
+Jet turbines instead of a reactor.
+
+19
+00:00:32,233 --> 00:00:33,800
+Wings instead of hovering.
+
+20
+00:00:34,100 --> 00:00:36,367
+Every number is checked.
+
+21
+00:00:36,367 --> 00:00:39,800
+Follow to see if it flies.
+

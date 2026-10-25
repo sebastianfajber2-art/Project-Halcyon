@@ -2,6 +2,18 @@
 
 Vertical 9:16, ~40 s, voiceover only (no face). Post to TikTok, YouTube Shorts and Instagram Reels.
 
+## Files
+
+| File | What it is |
+| --- | --- |
+| `timeline.json` | The edit timeline: 7 cuts (frame-exact at 30 fps), slow zoom per scene, 21 captions with style, music and sound cues. Feed this to an editor or editing MCP. |
+| `captions.srt` | The same captions as a standard subtitle file |
+| `voiceover.txt` | The read-aloud script to record (about 40 s, 88 words, 2.2 words per second) |
+| `scene-01.png` … `scene-07.png` | The 1080 × 1920 visuals, one per scene (text is baked in) |
+| `make_timeline.py`, `make_frames.py` | Generators: edit the scenes there and re-run, don't edit the outputs by hand |
+
+Build order: record `voiceover.txt` → drop `voiceover.wav` next to the files → trim silences and re-time cuts and captions to the real voice → add music and sounds → export 1080 × 1920, 30 fps.
+
 ## Hook options
 
 1. **Iron Man's arc reactor would cook him alive.** (chosen: shock + familiar character in 6 words)
