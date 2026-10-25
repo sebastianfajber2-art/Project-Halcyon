@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2560 1440" width="2560" height="1440">
+  <!-- YouTube banner. Everything that matters stays inside the 1546 x 423 safe area centred at (1280, 720). -->
+  <rect width="2560" height="1440" fill="#0f1318"/>
+  <g stroke="#18202a" stroke-width="2">
+    <line x1="0" y1="360" x2="2560" y2="360"/><line x1="0" y1="1080" x2="2560" y2="1080"/>
+  </g>
+
+  <!-- mark, same geometry as pfp.svg, scaled into the left of the safe area -->
+  <g transform="translate(720 720) scale(0.62) translate(-540 -554)">
+    <polygon points="612,445 880,612 600,560" fill="#4f97ff"/>
+    <polygon points="600,560 880,612 858,652" fill="#2a66c8"/>
+    <polygon points="468,445 200,612 480,560" fill="#4f97ff"/>
+    <polygon points="480,560 200,612 222,652" fill="#2a66c8"/>
+    <polygon points="540,248 586,318 540,300" fill="#e9eff7"/>
+    <polygon points="540,248 494,318 540,300" fill="#c9d3e0"/>
+    <polygon points="494,318 540,300 586,318 570,392 510,392" fill="#aebbcc"/>
+    <polygon points="540,402 612,432 540,470" fill="#e9eff7"/>
+    <polygon points="540,402 468,432 540,470" fill="#c9d3e0"/>
+    <polygon points="468,432 540,470 540,652 490,602" fill="#aebbcc"/>
+    <polygon points="612,432 540,470 540,652 590,602" fill="#d6dee9"/>
+    <polygon points="540,470 572,512 540,556 508,512" fill="#ff7a1a"/>
+    <polygon points="512,660 540,690 540,860 526,822" fill="#aebbcc"/>
+    <polygon points="568,660 540,690 540,860 554,822" fill="#d6dee9"/>
+  </g>
+
+  <text x="960" y="712" font-family="Segoe UI, Arial, sans-serif" font-size="98" font-weight="700" letter-spacing="4" fill="#e9eff7">PROJECT HALCYON</text>
+  <text x="964" y="790" font-family="Segoe UI, Arial, sans-serif" font-size="48" fill="#8fa0b5">Real physics. No arc reactor.</text>
+  <rect x="964" y="822" width="110" height="8" fill="#ff7a1a"/>
+</svg>

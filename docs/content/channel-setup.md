@@ -8,7 +8,7 @@ Use one name everywhere so people can find the project from any platform.
 
 | Platform | Name | Handle to try first | Fallbacks |
 | --- | --- | --- | --- |
-| YouTube | Project Halcyon | @projecthalcyon | @halcyonsuit, @projecthalcyonbuild |
+| YouTube | Project Halcyon | **@project_ha1cyon** (created; switch to @projectha1cyon if free) | — |
 | TikTok | Project Halcyon | @projecthalcyon | same fallbacks |
 | Instagram | Project Halcyon | **@projectha1cyon** (chosen, with the digit 1 in place of the l) | — |
 | Ko-fi | Project Halcyon | ko-fi.com/projecthalcyon | — |
