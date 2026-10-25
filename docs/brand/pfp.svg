@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <!-- Project Halcyon mark: the suit seen from above, diving like a kingfisher (blue back, orange breast) -->
+  <rect width="1080" height="1080" fill="#0f1318"/>
+  <circle cx="540" cy="540" r="470" fill="none" stroke="#1c2430" stroke-width="10"/>
+  <g transform="translate(540 550) scale(1.22) translate(-540 -554)">
+
+  <!-- wings: swept back, two facets each -->
+  <polygon points="612,445 880,612 600,560" fill="#4f97ff"/>
+  <polygon points="600,560 880,612 858,652" fill="#2a66c8"/>
+  <polygon points="468,445 200,612 480,560" fill="#4f97ff"/>
+  <polygon points="480,560 200,612 222,652" fill="#2a66c8"/>
+
+  <!-- helmet -->
+  <polygon points="540,248 586,318 540,300" fill="#e9eff7"/>
+  <polygon points="540,248 494,318 540,300" fill="#c9d3e0"/>
+  <polygon points="494,318 540,300 586,318 570,392 510,392" fill="#aebbcc"/>
+
+  <!-- torso -->
+  <polygon points="540,402 612,432 540,470" fill="#e9eff7"/>
+  <polygon points="540,402 468,432 540,470" fill="#c9d3e0"/>
+  <polygon points="468,432 540,470 540,652 490,602" fill="#aebbcc"/>
+  <polygon points="612,432 540,470 540,652 590,602" fill="#d6dee9"/>
+
+  <!-- breast: the kingfisher orange -->
+  <polygon points="540,470 572,512 540,556 508,512" fill="#ff7a1a"/>
+
+  <!-- legs, pointed into the dive -->
+  <polygon points="512,660 540,690 540,860 526,822" fill="#aebbcc"/>
+  <polygon points="568,660 540,690 540,860 554,822" fill="#d6dee9"/>
+  </g>
+</svg>
