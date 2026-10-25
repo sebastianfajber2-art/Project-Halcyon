@@ -1,0 +1,120 @@
+1
+00:00:00,100 --> 00:00:01,200
+Can you build
+
+2
+00:00:01,200 --> 00:00:03,033
+a real Iron Man suit?
+
+3
+00:00:03,033 --> 00:00:04,833
+Yes. But not the way
+
+4
+00:00:04,833 --> 00:00:06,300
+the movie does it.
+
+5
+00:00:06,600 --> 00:00:07,767
+No arc reactor.
+
+6
+00:00:07,767 --> 00:00:09,700
+It would cook you alive.
+
+7
+00:00:09,700 --> 00:00:11,267
+So the real suit
+
+8
+00:00:11,267 --> 00:00:12,800
+runs on jet fuel.
+
+9
+00:00:13,100 --> 00:00:14,600
+Six small jet turbines
+
+10
+00:00:14,600 --> 00:00:15,700
+push out about
+
+11
+00:00:15,700 --> 00:00:17,933
+two and a half thousand newtons.
+
+12
+00:00:17,933 --> 00:00:19,800
+Enough to lift a person.
+
+13
+00:00:20,100 --> 00:00:21,900
+But hovering burns fuel fast,
+
+14
+00:00:21,900 --> 00:00:23,733
+so the suit has wings.
+
+15
+00:00:23,733 --> 00:00:25,533
+They swing back for speed,
+
+16
+00:00:25,533 --> 00:00:27,000
+open wide to turn,
+
+17
+00:00:27,000 --> 00:00:28,800
+and tilt up to brake.
+
+18
+00:00:29,100 --> 00:00:31,667
+On paper, that's about twenty minutes
+
+19
+00:00:31,667 --> 00:00:33,367
+from a standing start,
+
+20
+00:00:33,367 --> 00:00:35,100
+and over an hour
+
+21
+00:00:35,100 --> 00:00:36,800
+from a glider-style launch.
+
+22
+00:00:37,100 --> 00:00:39,267
+The legs get a robot exoskeleton
+
+23
+00:00:39,267 --> 00:00:40,367
+so you can
+
+24
+00:00:40,367 --> 00:00:41,800
+stand up in it.
+
+25
+00:00:41,800 --> 00:00:43,633
+I've already designed the knee,
+
+26
+00:00:43,633 --> 00:00:45,800
+and the code is open source.
+
+27
+00:00:46,100 --> 00:00:47,467
+It's dangerous, so nothing
+
+28
+00:00:47,467 --> 00:00:49,533
+goes on me until it's tested,
+
+29
+00:00:49,533 --> 00:00:50,567
+step by step.
+
+30
+00:00:50,567 --> 00:00:52,300
+Follow to watch it happen.
+

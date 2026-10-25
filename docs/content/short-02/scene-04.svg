@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1080 1920" width="1080" height="1920" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M60 0H0V60" fill="none" stroke="#132033" stroke-width="1"/></pattern>
+    
+  </defs>
+  <rect width="1080" height="1920" fill="#0d1420"/>
+  <rect width="1080" height="1920" fill="url(#grid)"/>
+  <text x="540" y="250" text-anchor="middle" fill="#8fa3bd" font-size="34" letter-spacing="4">PROJECT HALCYON</text>
+  <text x="540" y="420" text-anchor="middle" fill="#e9eff7" font-size="66" font-weight="800" letter-spacing="3">THREE WING MODES</text>
+  <polygon points="222,690 292,785 292,819 222,750" fill="#3d8bff" fill-opacity="0.9" stroke="#9cc4ff" stroke-width="3"/>
+  <polygon points="178,690 108,785 108,819 178,750" fill="#3d8bff" fill-opacity="0.9" stroke="#9cc4ff" stroke-width="3"/>
+  <polygon points="176,676 224,676 230,750 216,830 184,830 170,750" fill="#1d2a3d" stroke="#cfe0f5" stroke-width="3"/>
+  <polygon points="200,620 222,648 214,674 186,674 178,648" fill="#1d2a3d" stroke="#cfe0f5" stroke-width="3"/>
+  <polygon points="557,690 677,704 677,744 557,750" fill="#3d8bff" fill-opacity="0.9" stroke="#9cc4ff" stroke-width="3"/>
+  <polygon points="513,690 393,704 393,744 513,750" fill="#3d8bff" fill-opacity="0.9" stroke="#9cc4ff" stroke-width="3"/>
+  <polygon points="511,676 559,676 565,750 551,830 519,830 505,750" fill="#1d2a3d" stroke="#cfe0f5" stroke-width="3"/>
+  <polygon points="535,620 557,648 549,674 521,674 513,648" fill="#1d2a3d" stroke="#cfe0f5" stroke-width="3"/>
+  <polygon points="892,690 1012,674 1012,714 892,750" fill="#3d8bff" fill-opacity="0.9" stroke="#9cc4ff" stroke-width="3"/>
+  <polygon points="848,690 728,674 728,714 848,750" fill="#3d8bff" fill-opacity="0.9" stroke="#9cc4ff" stroke-width="3"/>
+  <line x1="892" y1="750" x2="1012" y2="714" stroke="#ff7a1a" stroke-width="10" stroke-linecap="round"/>
+  <line x1="848" y1="750" x2="728" y2="714" stroke="#ff7a1a" stroke-width="10" stroke-linecap="round"/>
+  <polygon points="846,676 894,676 900,750 886,830 854,830 840,750" fill="#1d2a3d" stroke="#cfe0f5" stroke-width="3"/>
+  <polygon points="870,620 892,648 884,674 856,674 848,648" fill="#1d2a3d" stroke="#cfe0f5" stroke-width="3"/>
+  <text x="200" y="910" text-anchor="middle" fill="#4f97ff" font-size="52" font-weight="800" letter-spacing="2">SPEED</text>
+  <text x="200" y="955" text-anchor="middle" fill="#8fa3bd" font-size="32" font-weight="400" letter-spacing="0">swept back</text>
+  <text x="535" y="910" text-anchor="middle" fill="#4f97ff" font-size="52" font-weight="800" letter-spacing="2">TURN</text>
+  <text x="535" y="955" text-anchor="middle" fill="#8fa3bd" font-size="32" font-weight="400" letter-spacing="0">full span</text>
+  <text x="870" y="910" text-anchor="middle" fill="#ff7a1a" font-size="52" font-weight="800" letter-spacing="2">STOP</text>
+  <text x="870" y="955" text-anchor="middle" fill="#8fa3bd" font-size="32" font-weight="400" letter-spacing="0">airbrake</text>
+  <text x="540" y="1130" text-anchor="middle" fill="#e9eff7" font-size="40" font-weight="700" letter-spacing="1">YOU PICK THE MODE,</text>
+  <text x="540" y="1190" text-anchor="middle" fill="#e9eff7" font-size="40" font-weight="700" letter-spacing="1">THE COMPUTER MOVES THE WINGS</text>
+
+</svg>

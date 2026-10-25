@@ -123,6 +123,7 @@ scenes["scene-07"] = frame(
     + text(540, 1370, "@projectha1cyon", 60, BLUE, 700),
 )
 
-for name, svg in scenes.items():
-    (OUT / f"{name}.svg").write_text(svg, encoding="utf-8")
-    print("wrote", name + ".svg")
+if __name__ == "__main__":
+    for name, svg in scenes.items():
+        (OUT / f"{name}.svg").write_text(svg, encoding="utf-8")
+        print("wrote", name + ".svg")

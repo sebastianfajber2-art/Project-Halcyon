@@ -1,0 +1,24 @@
+SHORT 2: VOICEOVER SCRIPT
+Read in one take, calm and clear, about 2 to 2.7 words per second (about 52 seconds in total).
+Take a short breath where there are three dots. Do not read the scene labels or times.
+
+[s01  0.0-6.5 s]
+Can you build a real Iron Man suit? Yes. But not the way the movie does it.
+
+[s02  6.5-13.0 s]
+No arc reactor. It would cook you alive. So the real suit runs on jet fuel.
+
+[s03  13.0-20.0 s]
+Six small jet turbines push out about two and a half thousand newtons. Enough to lift a person.
+
+[s04  20.0-29.0 s]
+But hovering burns fuel fast, so the suit has wings. They swing back for speed, open wide to turn, and tilt up to brake.
+
+[s05  29.0-37.0 s]
+On paper, that's about twenty minutes from a standing start, and over an hour from a glider-style launch.
+
+[s06  37.0-46.0 s]
+The legs get a robot exoskeleton so you can stand up in it. I've already designed the knee, and the code is open source.
+
+[s07  46.0-52.5 s]
+It's dangerous, so nothing goes on me until it's tested, step by step. Follow to watch it happen.

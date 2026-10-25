@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1080 1920" width="1080" height="1920" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M60 0H0V60" fill="none" stroke="#132033" stroke-width="1"/></pattern>
+    
+  </defs>
+  <rect width="1080" height="1920" fill="#0d1420"/>
+  <rect width="1080" height="1920" fill="url(#grid)"/>
+  <text x="540" y="250" text-anchor="middle" fill="#8fa3bd" font-size="34" letter-spacing="4">PROJECT HALCYON</text>
+  <image href="../../brand/pfp.png" x="300" y="340" width="480" height="480"/>
+  <text x="540" y="960" text-anchor="middle" fill="#e9eff7" font-size="64" font-weight="800" letter-spacing="2">NOTHING GOES ON ME</text>
+  <text x="540" y="1040" text-anchor="middle" fill="#ff7a1a" font-size="64" font-weight="800" letter-spacing="2">UNTIL IT'S TESTED</text>
+  <text x="540" y="1190" text-anchor="middle" fill="#e9eff7" font-size="42" font-weight="800" letter-spacing="1">FOLLOW TO WATCH IT HAPPEN</text>
+  <text x="540" y="1280" text-anchor="middle" fill="#4f97ff" font-size="56" font-weight="700" letter-spacing="0">@projectha1cyon</text>
+
+</svg>

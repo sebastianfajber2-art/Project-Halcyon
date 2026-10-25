@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1080 1920" width="1080" height="1920" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M60 0H0V60" fill="none" stroke="#132033" stroke-width="1"/></pattern>
+    
+  </defs>
+  <rect width="1080" height="1920" fill="#0d1420"/>
+  <rect width="1080" height="1920" fill="url(#grid)"/>
+  <text x="540" y="250" text-anchor="middle" fill="#8fa3bd" font-size="34" letter-spacing="4">PROJECT HALCYON</text>
+  <text x="540" y="560" text-anchor="middle" fill="#8fa3bd" font-size="52" font-weight="600" letter-spacing="6">ON PAPER</text>
+  <text x="540" y="790" text-anchor="middle" fill="#4f97ff" font-size="140" font-weight="800" letter-spacing="0">~20 MIN</text>
+  <text x="540" y="860" text-anchor="middle" fill="#8fa3bd" font-size="44" font-weight="400" letter-spacing="0">from a standing start</text>
+  <text x="540" y="1090" text-anchor="middle" fill="#ff7a1a" font-size="140" font-weight="800" letter-spacing="0">60+ MIN</text>
+  <text x="540" y="1160" text-anchor="middle" fill="#8fa3bd" font-size="44" font-weight="400" letter-spacing="0">from a glider-style launch</text>
+  <text x="540" y="1330" text-anchor="middle" fill="#8fa3bd" font-size="38" font-weight="600" letter-spacing="1">simulation numbers, not flown yet</text>
+
+</svg>

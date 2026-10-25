@@ -1,0 +1,396 @@
+{
+  "project": "Project Halcyon, Short 2: Can you build a real Iron Man suit?",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "duration": 52.5
+  },
+  "tracks": {
+    "video": [
+      {
+        "id": "s01",
+        "src": "scene-01.png",
+        "start": 0.0,
+        "end": 6.5,
+        "motion": {
+          "type": "zoom_in",
+          "from": 1.0,
+          "to": 1.08
+        },
+        "transition_in": "cut"
+      },
+      {
+        "id": "s02",
+        "src": "scene-02.png",
+        "start": 6.5,
+        "end": 13.0,
+        "motion": {
+          "type": "zoom_in",
+          "from": 1.0,
+          "to": 1.05
+        },
+        "transition_in": "cut"
+      },
+      {
+        "id": "s03",
+        "src": "scene-03.png",
+        "start": 13.0,
+        "end": 20.0,
+        "motion": {
+          "type": "zoom_in",
+          "from": 1.0,
+          "to": 1.05
+        },
+        "transition_in": "cut"
+      },
+      {
+        "id": "s04",
+        "src": "scene-04.png",
+        "start": 20.0,
+        "end": 29.0,
+        "motion": {
+          "type": "zoom_in",
+          "from": 1.0,
+          "to": 1.04
+        },
+        "transition_in": "cut"
+      },
+      {
+        "id": "s05",
+        "src": "scene-05.png",
+        "start": 29.0,
+        "end": 37.0,
+        "motion": {
+          "type": "zoom_out",
+          "from": 1.08,
+          "to": 1.0
+        },
+        "transition_in": "cut"
+      },
+      {
+        "id": "s06",
+        "src": "scene-06.png",
+        "start": 37.0,
+        "end": 46.0,
+        "motion": {
+          "type": "zoom_in",
+          "from": 1.0,
+          "to": 1.05
+        },
+        "transition_in": "cut"
+      },
+      {
+        "id": "s07",
+        "src": "scene-07.png",
+        "start": 46.0,
+        "end": 52.5,
+        "motion": {
+          "type": "zoom_in",
+          "from": 1.0,
+          "to": 1.03
+        },
+        "transition_in": "cut"
+      }
+    ],
+    "voiceover": {
+      "src": "voiceover.wav",
+      "status": "to record",
+      "segments": [
+        {
+          "scene": "s01",
+          "start": 0.0,
+          "end": 6.5,
+          "text": "Can you build a real Iron Man suit? Yes. But not the way the movie does it."
+        },
+        {
+          "scene": "s02",
+          "start": 6.5,
+          "end": 13.0,
+          "text": "No arc reactor. It would cook you alive. So the real suit runs on jet fuel."
+        },
+        {
+          "scene": "s03",
+          "start": 13.0,
+          "end": 20.0,
+          "text": "Six small jet turbines push out about two and a half thousand newtons. Enough to lift a person."
+        },
+        {
+          "scene": "s04",
+          "start": 20.0,
+          "end": 29.0,
+          "text": "But hovering burns fuel fast, so the suit has wings. They swing back for speed, open wide to turn, and tilt up to brake."
+        },
+        {
+          "scene": "s05",
+          "start": 29.0,
+          "end": 37.0,
+          "text": "On paper, that's about twenty minutes from a standing start, and over an hour from a glider-style launch."
+        },
+        {
+          "scene": "s06",
+          "start": 37.0,
+          "end": 46.0,
+          "text": "The legs get a robot exoskeleton so you can stand up in it. I've already designed the knee, and the code is open source."
+        },
+        {
+          "scene": "s07",
+          "start": 46.0,
+          "end": 52.5,
+          "text": "It's dangerous, so nothing goes on me until it's tested, step by step. Follow to watch it happen."
+        }
+      ]
+    },
+    "captions": {
+      "src": "captions.srt",
+      "style": {
+        "font": "Segoe UI Bold",
+        "size": 64,
+        "fill": "#ffffff",
+        "outline": "#000000",
+        "outline_px": 6,
+        "x": 540,
+        "y": 1560,
+        "max_width": 760,
+        "max_lines": 2
+      },
+      "lines": [
+        {
+          "scene": "s01",
+          "start": 0.1,
+          "end": 1.2,
+          "text": "Can you build"
+        },
+        {
+          "scene": "s01",
+          "start": 1.2,
+          "end": 3.033333333333333,
+          "text": "a real Iron Man suit?"
+        },
+        {
+          "scene": "s01",
+          "start": 3.033333333333333,
+          "end": 4.833333333333333,
+          "text": "Yes. But not the way"
+        },
+        {
+          "scene": "s01",
+          "start": 4.833333333333333,
+          "end": 6.3,
+          "text": "the movie does it."
+        },
+        {
+          "scene": "s02",
+          "start": 6.6,
+          "end": 7.766666666666667,
+          "text": "No arc reactor."
+        },
+        {
+          "scene": "s02",
+          "start": 7.766666666666667,
+          "end": 9.7,
+          "text": "It would cook you alive."
+        },
+        {
+          "scene": "s02",
+          "start": 9.7,
+          "end": 11.266666666666667,
+          "text": "So the real suit"
+        },
+        {
+          "scene": "s02",
+          "start": 11.266666666666667,
+          "end": 12.8,
+          "text": "runs on jet fuel."
+        },
+        {
+          "scene": "s03",
+          "start": 13.1,
+          "end": 14.6,
+          "text": "Six small jet turbines"
+        },
+        {
+          "scene": "s03",
+          "start": 14.6,
+          "end": 15.7,
+          "text": "push out about"
+        },
+        {
+          "scene": "s03",
+          "start": 15.7,
+          "end": 17.933333333333334,
+          "text": "two and a half thousand newtons."
+        },
+        {
+          "scene": "s03",
+          "start": 17.933333333333334,
+          "end": 19.8,
+          "text": "Enough to lift a person."
+        },
+        {
+          "scene": "s04",
+          "start": 20.1,
+          "end": 21.9,
+          "text": "But hovering burns fuel fast,"
+        },
+        {
+          "scene": "s04",
+          "start": 21.9,
+          "end": 23.733333333333334,
+          "text": "so the suit has wings."
+        },
+        {
+          "scene": "s04",
+          "start": 23.733333333333334,
+          "end": 25.533333333333335,
+          "text": "They swing back for speed,"
+        },
+        {
+          "scene": "s04",
+          "start": 25.533333333333335,
+          "end": 27.0,
+          "text": "open wide to turn,"
+        },
+        {
+          "scene": "s04",
+          "start": 27.0,
+          "end": 28.8,
+          "text": "and tilt up to brake."
+        },
+        {
+          "scene": "s05",
+          "start": 29.1,
+          "end": 31.666666666666668,
+          "text": "On paper, that's about twenty minutes"
+        },
+        {
+          "scene": "s05",
+          "start": 31.666666666666668,
+          "end": 33.36666666666667,
+          "text": "from a standing start,"
+        },
+        {
+          "scene": "s05",
+          "start": 33.36666666666667,
+          "end": 35.1,
+          "text": "and over an hour"
+        },
+        {
+          "scene": "s05",
+          "start": 35.1,
+          "end": 36.8,
+          "text": "from a glider-style launch."
+        },
+        {
+          "scene": "s06",
+          "start": 37.1,
+          "end": 39.266666666666666,
+          "text": "The legs get a robot exoskeleton"
+        },
+        {
+          "scene": "s06",
+          "start": 39.266666666666666,
+          "end": 40.36666666666667,
+          "text": "so you can"
+        },
+        {
+          "scene": "s06",
+          "start": 40.36666666666667,
+          "end": 41.8,
+          "text": "stand up in it."
+        },
+        {
+          "scene": "s06",
+          "start": 41.8,
+          "end": 43.63333333333333,
+          "text": "I've already designed the knee,"
+        },
+        {
+          "scene": "s06",
+          "start": 43.63333333333333,
+          "end": 45.8,
+          "text": "and the code is open source."
+        },
+        {
+          "scene": "s07",
+          "start": 46.1,
+          "end": 47.46666666666667,
+          "text": "It's dangerous, so nothing"
+        },
+        {
+          "scene": "s07",
+          "start": 47.46666666666667,
+          "end": 49.53333333333333,
+          "text": "goes on me until it's tested,"
+        },
+        {
+          "scene": "s07",
+          "start": 49.53333333333333,
+          "end": 50.56666666666667,
+          "text": "step by step."
+        },
+        {
+          "scene": "s07",
+          "start": 50.56666666666667,
+          "end": 52.3,
+          "text": "Follow to watch it happen."
+        }
+      ]
+    },
+    "music": [
+      {
+        "start": 0.0,
+        "end": 13.0,
+        "file": "dark_drone",
+        "gain_db": -22,
+        "fade_out": 0.4
+      },
+      {
+        "start": 13.0,
+        "end": 52.5,
+        "file": "uplifting_pulse",
+        "gain_db": -19,
+        "fade_out": 1.0
+      }
+    ],
+    "sfx": [
+      {
+        "at": 6.5,
+        "file": "impact_low",
+        "gain_db": -6,
+        "why": "hit on 'No arc reactor'"
+      },
+      {
+        "at": 13.0,
+        "file": "whoosh_short",
+        "gain_db": -12,
+        "why": "cut to the suit"
+      },
+      {
+        "at": 20.0,
+        "file": "whoosh_short",
+        "gain_db": -12,
+        "why": "cut to the wing modes"
+      },
+      {
+        "at": 29.0,
+        "file": "impact_low",
+        "gain_db": -8,
+        "why": "the numbers land"
+      },
+      {
+        "at": 37.0,
+        "file": "whoosh_short",
+        "gain_db": -12,
+        "why": "cut to the knee"
+      }
+    ]
+  },
+  "notes": [
+    "Scene images already contain the on-screen text, so no separate text overlays are needed.",
+    "Keep all added graphics inside y = 300..1400 and clear of x > 940 between y = 950 and y = 1650.",
+    "Captions sit at y = 1560 (below the scene text, left of the button column).",
+    "After recording, trim silences in the voiceover and re-time scene cuts and captions to match.",
+    "Music and sfx names are placeholders: use royalty-free or platform-library sounds."
+  ]
+}

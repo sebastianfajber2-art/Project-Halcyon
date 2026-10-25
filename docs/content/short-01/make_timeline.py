@@ -15,6 +15,7 @@ import json
 from pathlib import Path
 
 OUT = Path(__file__).parent
+TITLE = "Short 1: Iron Man's arc reactor would cook him alive"
 FPS, W, H = 30, 1080, 1920
 
 
@@ -124,7 +125,7 @@ def main():
         raise SystemExit("timeline problems: " + "; ".join(problems))
     caps = caption_lines()
     timeline = {
-        "project": "Project Halcyon, Short 1: Iron Man's arc reactor would cook him alive",
+        "project": f"Project Halcyon, {TITLE}",
         "format": {"width": W, "height": H, "fps": FPS, "duration": SCENES[-1]["end"]},
         "tracks": {
             "video": [{"id": s["id"], "src": s["image"], "start": snap(s["start"]), "end": snap(s["end"]),
@@ -150,8 +151,8 @@ def main():
                   for i, c in enumerate(caps, 1))
     (OUT / "captions.srt").write_text(srt, encoding="utf-8")
 
-    lines = ["SHORT 1: VOICEOVER SCRIPT",
-             "Read in one take, calm and clear, about 2 to 2.7 words per second (about 40 seconds in total).",
+    lines = [f"{TITLE.split(':')[0].upper()}: VOICEOVER SCRIPT",
+             f"Read in one take, calm and clear, about 2 to 2.7 words per second (about {SCENES[-1]['end']:.0f} seconds in total).",
              "Take a short breath where there are three dots. Do not read the scene labels or times.", ""]
     for s in SCENES:
         lines += [f"[{s['id']}  {s['start']:.1f}-{s['end']:.1f} s]", plain(s), ""]

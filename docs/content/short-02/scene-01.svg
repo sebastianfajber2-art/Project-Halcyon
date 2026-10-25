@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1080 1920" width="1080" height="1920" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M60 0H0V60" fill="none" stroke="#132033" stroke-width="1"/></pattern>
+    
+  </defs>
+  <rect width="1080" height="1920" fill="#0d1420"/>
+  <rect width="1080" height="1920" fill="url(#grid)"/>
+  <text x="540" y="250" text-anchor="middle" fill="#8fa3bd" font-size="34" letter-spacing="4">PROJECT HALCYON</text>
+  <text x="540" y="620" text-anchor="middle" fill="#e9eff7" font-size="84" font-weight="700" letter-spacing="3">CAN YOU BUILD</text>
+  <text x="540" y="720" text-anchor="middle" fill="#e9eff7" font-size="84" font-weight="700" letter-spacing="3">A REAL</text>
+  <text x="540" y="835" text-anchor="middle" fill="#ff7a1a" font-size="96" font-weight="800" letter-spacing="2">IRON MAN SUIT?</text>
+  <text x="540" y="1080" text-anchor="middle" fill="#4f97ff" font-size="170" font-weight="800" letter-spacing="0">YES.</text>
+  <text x="540" y="1200" text-anchor="middle" fill="#8fa3bd" font-size="52" font-weight="600" letter-spacing="2">BUT NOT LIKE THE MOVIE.</text>
+
+</svg>
