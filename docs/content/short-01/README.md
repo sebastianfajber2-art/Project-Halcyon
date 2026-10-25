@@ -12,7 +12,7 @@ Vertical 9:16, ~40 s, voiceover only (no face). Post to TikTok, YouTube Shorts a
 | `scene-01.png` … `scene-07.png` | The 1080 × 1920 visuals, one per scene (text is baked in) |
 | `make_timeline.py`, `make_frames.py` | Generators: edit the scenes there and re-run, don't edit the outputs by hand |
 
-Build order: record `voiceover.txt` → drop `voiceover.wav` next to the files → trim silences and re-time cuts and captions to the real voice → add music and sounds → export 1080 × 1920, 30 fps.
+Build order: record `voiceover.txt`, then run `python docs/content/render_short.py short-01 your-voice.m4a`. It re-times everything to your voice and writes the finished mp4 to `final/`. Details: `docs/content/README.md`.
 
 ## Hook options
 
