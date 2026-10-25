@@ -7,4 +7,9 @@ Your voice over photos, project visuals and three short film cutaways. Words fol
 3. `python docs/content/vo-01-one-problem/build_scenes.py` then `python docs/content/vo-01-one-problem/build_timeline.py`
 4. `python docs/content/render_short.py vo-01-one-problem your-voice.m4a`
 
-Photo credits (put them in the description): see the list in `build_scenes.py` frames, all from Wikimedia Commons: Jet suit flyer (ITookSomePhotos, CC BY-SA 4.0), Jetman turbine wind-tunnel test (Patrickhaas, CC BY-SA 3.0), Jetman desert race (Jaguar MENA, CC BY 2.0), Curiosity RTG (NASA / Kim Shiflett, public domain), F-22 Raptor at twilight (US Air Force, public domain).
+Credits (put them in the description; the footage and photos live in the git-ignored `media/`, with a full list in `media/CREDITS.md`):
+
+- Video, public domain: NASA / JHUAPL "After 60 Years, Nuclear Power for Spaceflight is Still Tried and True"; George Felton / US Customs and Border Protection, Black Hawk flyover of NRG Stadium; NASA Armstrong, "NASA's X-43A Accelerates Hypersonic Flight".
+- Photos used only in earlier test versions (Wikimedia Commons): Jet suit flyer (ITookSomePhotos, CC BY-SA 4.0), Jetman turbine wind-tunnel test (Patrickhaas, CC BY-SA 3.0).
+
+Order of work: render once, then `build_anim.py` (animated graphs, timed from the last render), then render again.

@@ -10,133 +10,285 @@
     "video": [
       {
         "id": "s01",
-        "src": "f01.png",
-        "type": "image",
+        "src": "media/rtg_nasa.webm",
+        "type": "clip",
         "start": 0.0,
         "end": 3.3,
         "motion": {
-          "type": "zoom_in",
+          "type": "none",
           "from": 1.0,
-          "to": 1.05
+          "to": 1.0
         },
-        "transition_in": "cut"
+        "transition_in": "cut",
+        "clip": {
+          "file": "media/rtg_nasa.webm",
+          "in": 30.0,
+          "speed": 1.0
+        },
+        "overlays": [
+          {
+            "file": "c_nasa.png",
+            "x": 40,
+            "y": 1290,
+            "w": 1000,
+            "start": 0.0,
+            "end": 9.0,
+            "credit": ""
+          }
+        ]
       },
       {
         "id": "s02",
-        "src": "f02.png",
-        "type": "image",
+        "src": "media/rtg_nasa.webm",
+        "type": "clip",
         "start": 3.3,
         "end": 6.2,
         "motion": {
-          "type": "zoom_in",
+          "type": "none",
           "from": 1.0,
-          "to": 1.04
+          "to": 1.0
         },
-        "transition_in": "cut"
+        "transition_in": "cut",
+        "clip": {
+          "file": "media/rtg_nasa.webm",
+          "in": 32.1,
+          "speed": 1.0
+        },
+        "overlays": [
+          {
+            "file": "c_nasa.png",
+            "x": 40,
+            "y": 1290,
+            "w": 1000,
+            "start": 0.0,
+            "end": 9.0,
+            "credit": ""
+          }
+        ]
       },
       {
         "id": "s03",
-        "src": "f03.png",
-        "type": "image",
+        "src": "media/rtg_nasa.webm",
+        "type": "clip",
         "start": 6.2,
         "end": 8.8,
         "motion": {
-          "type": "zoom_in",
+          "type": "none",
           "from": 1.0,
-          "to": 1.05
+          "to": 1.0
         },
-        "transition_in": "cut"
+        "transition_in": "cut",
+        "clip": {
+          "file": "media/rtg_nasa.webm",
+          "in": 34.233333333333334,
+          "speed": 1.0
+        },
+        "overlays": [
+          {
+            "file": "t_notreactor.png",
+            "x": 40,
+            "y": 190,
+            "w": 1000,
+            "start": 0.0,
+            "end": 9.0,
+            "credit": ""
+          },
+          {
+            "file": "c_nasa.png",
+            "x": 40,
+            "y": 1290,
+            "w": 1000,
+            "start": 0.0,
+            "end": 9.0,
+            "credit": ""
+          }
+        ]
       },
       {
         "id": "s04",
-        "src": "f04.png",
-        "type": "image",
+        "src": "media/blackhawk.webm",
+        "type": "clip",
         "start": 8.8,
         "end": 12.1,
         "motion": {
-          "type": "zoom_in",
+          "type": "none",
           "from": 1.0,
-          "to": 1.05
+          "to": 1.0
         },
-        "transition_in": "cut"
+        "transition_in": "cut",
+        "clip": {
+          "file": "media/blackhawk.webm",
+          "in": 11.0,
+          "speed": 1.0
+        },
+        "overlays": [
+          {
+            "file": "t_hovering.png",
+            "x": 40,
+            "y": 190,
+            "w": 1000,
+            "start": 0.0,
+            "end": 9.0,
+            "credit": ""
+          },
+          {
+            "file": "c_cbp.png",
+            "x": 40,
+            "y": 1290,
+            "w": 1000,
+            "start": 0.0,
+            "end": 9.0,
+            "credit": ""
+          }
+        ]
       },
       {
         "id": "s05",
-        "src": "f05.png",
-        "type": "image",
+        "src": "media/blackhawk.webm",
+        "type": "clip",
         "start": 12.1,
         "end": 15.8,
         "motion": {
-          "type": "zoom_in",
+          "type": "none",
           "from": 1.0,
-          "to": 1.04
+          "to": 1.0
         },
-        "transition_in": "cut"
+        "transition_in": "cut",
+        "clip": {
+          "file": "media/blackhawk.webm",
+          "in": 12.733333333333334,
+          "speed": 1.0
+        },
+        "overlays": [
+          {
+            "file": "t_hovering.png",
+            "x": 40,
+            "y": 190,
+            "w": 1000,
+            "start": 0.0,
+            "end": 9.0,
+            "credit": ""
+          },
+          {
+            "file": "c_cbp.png",
+            "x": 40,
+            "y": 1290,
+            "w": 1000,
+            "start": 0.0,
+            "end": 9.0,
+            "credit": ""
+          }
+        ]
       },
       {
         "id": "s06",
-        "src": "f06.png",
-        "type": "image",
+        "src": "media/anim06.mp4",
+        "type": "clip",
         "start": 15.8,
         "end": 20.8,
         "motion": {
-          "type": "zoom_in",
+          "type": "none",
           "from": 1.0,
-          "to": 1.05
+          "to": 1.0
         },
-        "transition_in": "cut"
+        "transition_in": "cut",
+        "clip": {
+          "file": "media/anim06.mp4",
+          "in": 0.0,
+          "speed": 1.0
+        }
       },
       {
         "id": "s07",
-        "src": "f07.png",
-        "type": "image",
+        "src": "media/anim07.mp4",
+        "type": "clip",
         "start": 20.8,
         "end": 24.6,
         "motion": {
-          "type": "zoom_in",
+          "type": "none",
           "from": 1.0,
-          "to": 1.04
+          "to": 1.0
         },
-        "transition_in": "cut"
+        "transition_in": "cut",
+        "clip": {
+          "file": "media/anim07.mp4",
+          "in": 0.0,
+          "speed": 1.0
+        }
       },
       {
         "id": "s08",
-        "src": "f08.png",
-        "type": "image",
+        "src": "media/anim08.mp4",
+        "type": "clip",
         "start": 24.6,
         "end": 26.3,
         "motion": {
-          "type": "zoom_in",
+          "type": "none",
           "from": 1.0,
-          "to": 1.05
+          "to": 1.0
         },
-        "transition_in": "cut"
+        "transition_in": "cut",
+        "clip": {
+          "file": "media/anim08.mp4",
+          "in": 0.0,
+          "speed": 1.0
+        }
       },
       {
         "id": "s09",
-        "src": "f09.png",
-        "type": "image",
+        "src": "media/anim09.mp4",
+        "type": "clip",
         "start": 26.3,
         "end": 36.2,
         "motion": {
-          "type": "zoom_in",
+          "type": "none",
           "from": 1.0,
-          "to": 1.05
+          "to": 1.0
         },
-        "transition_in": "cut"
+        "transition_in": "cut",
+        "clip": {
+          "file": "media/anim09.mp4",
+          "in": 0.0,
+          "speed": 1.0
+        }
       },
       {
         "id": "s10",
-        "src": "f10.png",
-        "type": "image",
+        "src": "media/x43a_nasa.webm",
+        "type": "clip",
         "start": 36.2,
         "end": 44.2,
         "motion": {
-          "type": "zoom_in",
+          "type": "none",
           "from": 1.0,
-          "to": 1.05
+          "to": 1.0
         },
-        "transition_in": "cut"
+        "transition_in": "cut",
+        "clip": {
+          "file": "media/x43a_nasa.webm",
+          "in": 70.0,
+          "speed": 1.0
+        },
+        "overlays": [
+          {
+            "file": "t_hour.png",
+            "x": 40,
+            "y": 190,
+            "w": 1000,
+            "start": 0.0,
+            "end": 9.0,
+            "credit": ""
+          },
+          {
+            "file": "c_x43.png",
+            "x": 40,
+            "y": 1290,
+            "w": 1000,
+            "start": 0.0,
+            "end": 9.0,
+            "credit": ""
+          }
+        ]
       },
       {
         "id": "s11",
@@ -145,9 +297,9 @@
         "start": 44.2,
         "end": 47.1,
         "motion": {
-          "type": "zoom_in",
+          "type": "none",
           "from": 1.0,
-          "to": 1.05
+          "to": 1.0
         },
         "transition_in": "cut"
       }
@@ -413,10 +565,10 @@
     ],
     "sfx": [
       {
-        "at": 3.3,
+        "at": 0.0,
         "file": "whoosh_short",
-        "gain_db": -12,
-        "why": "film 1"
+        "gain_db": -14,
+        "why": "opening"
       },
       {
         "at": 6.2,
@@ -425,22 +577,82 @@
         "why": "It's not"
       },
       {
-        "at": 12.1,
+        "at": 6.2,
+        "file": "media/pop.wav",
+        "gain_db": -6,
+        "why": "NOT THE REACTOR pops up"
+      },
+      {
+        "at": 8.8,
         "file": "whoosh_short",
-        "gain_db": -12,
-        "why": "film 2"
+        "gain_db": -14,
+        "why": "cut to the turbine"
+      },
+      {
+        "at": 8.8,
+        "file": "media/pop.wav",
+        "gain_db": -6,
+        "why": "HOVERING"
+      },
+      {
+        "at": 15.8,
+        "file": "whoosh_short",
+        "gain_db": -14,
+        "why": "cut to the numbers"
+      },
+      {
+        "at": 15.8,
+        "file": "media/pop.wav",
+        "gain_db": -6,
+        "why": "hover bar"
       },
       {
         "at": 20.8,
+        "file": "media/pop.wav",
+        "gain_db": -6,
+        "why": "wing bar"
+      },
+      {
+        "at": 24.6,
+        "file": "impact_low",
+        "gain_db": -9,
+        "why": "5x less"
+      },
+      {
+        "at": 24.6,
+        "file": "media/pop.wav",
+        "gain_db": -6,
+        "why": "5x LESS"
+      },
+      {
+        "at": 26.3,
         "file": "whoosh_short",
-        "gain_db": -12,
-        "why": "film 3"
+        "gain_db": -14,
+        "why": "cut to the wing modes"
       },
       {
         "at": 26.3,
         "file": "riser_end",
         "gain_db": -12,
         "why": "the fix"
+      },
+      {
+        "at": 36.2,
+        "file": "whoosh_short",
+        "gain_db": -14,
+        "why": "cut to the flyer"
+      },
+      {
+        "at": 36.2,
+        "file": "media/pop.wav",
+        "gain_db": -6,
+        "why": "1 HOUR"
+      },
+      {
+        "at": 44.2,
+        "file": "media/pop.wav",
+        "gain_db": -6,
+        "why": "follow"
       }
     ]
   },
