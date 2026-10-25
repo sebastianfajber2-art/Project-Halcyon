@@ -48,4 +48,10 @@ Jet-powered human flight has killed experienced, professional pilots. This proje
 
 ## License
 
-Not chosen yet.
+| What | License |
+| --- | --- |
+| Software: `sim/`, `calcs/`, and the code in `cad/exo01_build.py` | [MIT](LICENSE) |
+| Hardware designs: the EXO-01 geometry and any CAD, drawings or design files in `cad/` | [CERN-OHL-S-2.0](cad/LICENSE-CERN-OHL-S-2.0.txt) |
+| Documentation in `docs/` and this README | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+
+MIT keeps the code easy for anyone to reuse. CERN-OHL-S means anyone who builds and distributes a product from these hardware designs must share their modified design under the same licence, so improvements come back to the project.
